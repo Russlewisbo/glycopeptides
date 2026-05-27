@@ -1,0 +1,341 @@
+---
+title: "Glycopeptides (Vancomycin and Teicoplanin) and Lipoglycopeptides (Telavancin, Oritavancin, and Dalbavancin)"
+subtitle: "Lecture Companion — Postgraduate Infectious Diseases"
+author: "Russell E. Lewis, Pharm.D."
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    fig-cap-location: bottom
+    tbl-cap-location: top
+bibliography: glycopeptides-references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
+---
+
+![](glycopeptides-images/dmmunipd_logo.jpeg){width=200px fig-align="left"}
+
+::: {.callout-note}
+## About this lecture
+This companion document accompanies the slide deck and expands on every section presented during the lecture. Content adapted from the chapter by Murray, Arias, and Nannini in *Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases*, with selected updates from the recent literature.
+:::
+
+# Introduction
+
+The glycopeptides — **vancomycin** and **teicoplanin** — and the semi-synthetic lipoglycopeptides — **telavancin**, **dalbavancin**, and **oritavancin** — share a common mechanism of action: inhibition of late-stage peptidoglycan synthesis through high-affinity binding to the D-alanyl-D-alanine terminus of cell-wall precursors in dividing gram-positive organisms. Despite this shared mechanism, the five drugs differ markedly in their pharmacokinetic profiles, spectrum nuances, resistance liabilities, and approved clinical indications.
+
+Vancomycin remains the backbone agent for serious methicillin-resistant *Staphylococcus aureus* (MRSA) infections worldwide, but its narrow therapeutic index, slow bactericidal activity, and the appearance of strains with reduced susceptibility — vancomycin-intermediate *S. aureus* (VISA), heteroresistant VISA (hVISA), and rare vancomycin-resistant *S. aureus* (VRSA) — have driven both pharmacokinetic refinement (AUC-guided dosing) and the development of the lipoglycopeptide successors [@Kirst1998; @Hiramatsu2001; @Shariati2020].
+
+::: {.callout-important}
+## Class summary for clinicians
+- **Vancomycin**: backbone MRSA therapy; AUC-guided dosing now preferred over trough monitoring for serious MRSA infections [@Rybak2020].
+- **Teicoplanin**: available in Europe/Asia; long half-life permits once-daily dosing after loading; possibly less nephrotoxic than vancomycin [@Svetitsky2009].
+- **Telavancin**: dual-mechanism lipoglycopeptide; reserved for cSSSI and hospital-acquired/ventilator-associated pneumonia when alternatives are inappropriate; nephrotoxicity and QTc concerns.
+- **Dalbavancin**: very long half-life (~14 days); single- or two-dose regimens for ABSSSI; emerging role in osteomyelitis and infective endocarditis.
+- **Oritavancin**: terminal half-life ~245 hours; one-time single-dose ABSSSI therapy; interferes with coagulation assays.
+:::
+
+# Vancomycin
+
+## History
+
+Vancomycin, the first glycopeptide antibiotic developed for clinical use, was isolated from *Amycolatopsis orientalis* (previously *Streptomyces orientalis*, later *Nocardia orientalis*) in a soil sample from Borneo in the mid-1950s. In 1958 vancomycin was introduced into clinical practice as an agent active against penicillin-resistant *S. aureus*. Use was quickly relegated to β-lactam–allergic patients after methicillin and cephalothin became available and because early lots — known as "Mississippi mud" for the colour imparted by impurities — were associated with substantial toxicity. Manufacturing purity improved markedly thereafter [@Kirst1998].
+
+Since the 1980s vancomycin use has risen steadily — from approximately 2,000 kg/year in 1984 to over 11,200 kg/year in 1996 in the United States alone, paralleled in many other regions [@Kirst1998; @Lipsky1999; @Fraser2005].
+
+## Chemistry
+
+Vancomycin is a tricyclic glycopeptide of molecular weight ~1,449 Da consisting of a heptapeptide core with two attached sugars (vancosamine and glucose). The peptide backbone binds the terminal D-alanyl-D-alanine of nascent peptidoglycan via five hydrogen bonds, providing the high-affinity binding that defines class activity.
+
+## Mechanism of Action
+
+Vancomycin inhibits the late stages of cell-wall biosynthesis in dividing gram-positive organisms by complexing with the D-Ala-D-Ala C-terminus of peptidoglycan precursors, blocking both transglycosylation and transpeptidation. The drug does not penetrate the outer membrane of gram-negative organisms, accounting for its narrow spectrum.
+
+## Antimicrobial Activity and Spectrum
+
+Vancomycin is bactericidal against most gram-positive organisms, including *Staphylococcus aureus* (both methicillin-susceptible and -resistant), coagulase-negative staphylococci, streptococci (groups A–G, *Streptococcus pneumoniae*, viridans group), enterococci (when susceptible), *Listeria monocytogenes*, *Corynebacterium jeikeium*, *Bacillus* species, and gram-positive anaerobes including *Clostridioides difficile* and *Cutibacterium acnes*. Activity is concentration-independent and time-dependent, with the AUC/MIC ratio (rather than peak or trough alone) being the pharmacodynamic index that best predicts efficacy [@Rybak2020].
+
+## Resistance
+
+### Vancomycin-Resistant Enterococci (VRE)
+
+Glycopeptide resistance in enterococci is mediated by *van* gene clusters that replace the terminal D-Ala-D-Ala of peptidoglycan precursors with D-Ala-D-lactate (VanA, VanB, VanD, VanM phenotypes — high-level resistance to vancomycin; VanB additionally retains teicoplanin susceptibility) or with D-Ala-D-serine (VanC, VanE, VanG, VanL, VanN — low-level resistance) [@Ahmed2018; @Guffey2021]. VanA and VanB phenotypes dominate clinically, most commonly in *Enterococcus faecium* [@GallowayPena2012; @Contreras2021]. Surveillance data from the United States (NHSN), Europe (EARS-Net), and Latin America confirm continued global circulation and increasing prevalence in many regions [@Weiner2011; @ECDC2020].
+
+### Reduced Vancomycin Susceptibility in *S. aureus*
+
+The first MRSA isolate with reduced vancomycin susceptibility was reported by Hiramatsu in 1997 [@Hiramatsu1997]. The CLSI breakpoints were lowered in 2006 to reflect clinical failures at MICs of 2 μg/mL; current breakpoints classify *S. aureus* as susceptible at MIC ≤2, intermediate (VISA) at 4–8, and resistant (VRSA) at ≥16 μg/mL [@CLSI2012].
+
+- **VISA**: MIC 4–8 μg/mL; arises through stepwise mutation under selection pressure; characterised by thickened cell walls with abundant unbound D-Ala-D-Ala residues that "trap" vancomycin in the periphery (so-called clogging mechanism) [@Hiramatsu2001].
+- **hVISA**: heterogeneous VISA — population MIC in the susceptible range (≤2 μg/mL) but containing subpopulations growing at 4–8 μg/mL; precursor of VISA [@Richter2011; @Howden2011]. Global prevalence ~6% among MRSA in a recent meta-analysis [@Shariati2020]; recent reports document hVISA emergence in Latin America [@Castro2020].
+- **VRSA**: acquisition of the enterococcal *vanA* operon by MRSA; rare (~16 confirmed U.S. cases by 2023) but high-level resistant [@CDC2023].
+
+Mutations in two- and three-component regulatory systems (GraSR, WalKR/YycFG, VraTSR) controlling cell-wall homeostasis underlie both hVISA and VISA phenotypes [@Howden2008; @Howden2011; @Cafiso2012; @Wang2018].
+
+::: {.callout-warning}
+## Clinical failures with MIC creep
+Bacteraemia caused by MRSA strains with vancomycin MICs at the upper end of susceptibility (1.5–2 μg/mL by Etest) has been linked to higher rates of treatment failure, persistent bacteraemia, and mortality in several observational studies [@Sakoulas2004; @Moise2007; @Hidayat2006; @Maclayton2006; @Cervera2014]. A 2014 Cochrane meta-analysis found this association but emphasised the heterogeneity of testing methodologies [@Wang2010; @VanHal2012; @Holmes2011]. IDSA 2011 MRSA guidelines recommend considering an alternative agent for persistent bacteraemia despite adequate vancomycin exposure or for isolates with MIC >2 μg/mL [@Liu2011].
+:::
+
+## Pharmacokinetics and Therapeutic Drug Monitoring
+
+Vancomycin exhibits multi-compartmental kinetics with a distribution half-life of ~30 minutes and an elimination half-life of 6–12 hours in adults with normal renal function. Protein binding is approximately 55%. Tissue penetration is modest into lung epithelial lining fluid, bone, and CSF (with inflamed meninges, CSF levels reach 7%–21% of serum) and very limited into vitreous humour without inflammation.
+
+### AUC-guided versus trough-guided dosing
+
+Historically, trough levels of 15–20 mg/L were targeted for serious MRSA infections, based on the surrogate assumption that troughs of this magnitude would achieve an AUC/MIC ratio of ≥400 — the pharmacodynamic threshold derived from pre-clinical and clinical *S. aureus* data [@Moise2007; @Hidayat2006]. However, the relationship between trough and AUC is variable, and trough-guided regimens often expose patients to AUC values >600 mg·h/L — a threshold increasingly associated with acute kidney injury [@Lodise2020].
+
+The 2020 consensus guidelines from ASHP/IDSA/PIDS/SIDP now recommend **AUC-guided monitoring** by Bayesian software (or first-order pharmacokinetic equations using two timed levels), targeting **AUC₂₄ 400–600 mg·h/L** for serious MRSA infections [@Rybak2020]. Loading doses of 25–30 mg/kg are suggested for severely ill patients to attain therapeutic exposure earlier.
+
+::: {.callout-tip}
+## Dosing pearls
+- Average adult dose: 15–20 mg/kg every 8–12 h (actual body weight).
+- Loading dose for sepsis/endocarditis/meningitis/pneumonia: 25–30 mg/kg infused at ≤500 mg/h.
+- Continuous infusion (30–40 mg/kg/day after loading) may reduce nephrotoxicity without compromising efficacy [@Hanrahan2015].
+- Prospective evidence for clinical benefit of AUC over trough monitoring is still maturing — most supporting evidence is retrospective [@Rybak2020].
+:::
+
+### Special populations
+
+**Hemodialysis**: For intermittent HD, the recommended loading dose is 25 mg/kg with maintenance of 7.5–10 mg/kg (low-permeability dialyser) or 10–15 mg/kg (high-permeability dialyser) given during dialysis. **CRRT**: clearance is significantly higher; 500 mg every 8 h after 20 mg/kg loading is suggested for typical effluent rates (~25 mL/kg/h); higher effluent rates require larger doses [@Rybak2020].
+
+**Neonates and children**: dosing follows weight- and age-based algorithms; AUC-guided monitoring is recommended where Bayesian tools are available.
+
+**Pregnancy**: category B/C; minimal transplacental passage in *ex vivo* models; therapeutic fetal concentrations reached in overt amnionitis.
+
+### Local administration
+
+Vancomycin is the preferred agent for intraperitoneal therapy of peritonitis associated with continuous ambulatory peritoneal dialysis (CAPD); 15–30 mg/kg in long dwell (≥6 h) every 5–7 days for intermittent dosing [@ISPD2022]. **Intraventricular** dosing for ventriculitis is 5–20 mg depending on ventricular size and CSF drainage volume; intraocular dosing for endophthalmitis is 1 mg by intravitreal injection.
+
+## Dosing
+
+See @tbl-dosing for a comparative dosing summary across all five agents.
+
+| Drug | Route | Recommended adult dosage | Infusion | Comments |
+|------|-------|--------------------------|----------|----------|
+| **Vancomycin** | IV | 15–20 mg/kg q8–12h; continuous infusion 30 mg/kg/day after 15 mg/kg loading | ≤5 mg/mL at <15 mg/min (1 g over ≥60 min) | AUC/MIC 400–600 for serious MRSA |
+| | PO | 125–500 mg q6h | — | *C. difficile* colitis |
+| **Teicoplanin** | IV or IM | Loading: uncomplicated MRSA 10 mg/kg q12h × 5 doses OR 12 mg/kg q12h × 3 doses (target 15–30 mg/L); complicated MRSA 12 mg/kg q12h × 5 doses (target 20–40 mg/L); non-MRSA 6 mg/kg q12h × 3 doses. Maintenance 6 mg/kg/day | Bolus permitted | Higher maintenance doses needed for troughs >20 mg/L |
+| | PO | 100–400 mg q12h | — | *C. difficile* colitis |
+| **Telavancin** | IV | 10 mg/kg q24h | 1 h infusion | 25 mg or 750 mg vials reconstituted to ~15 mg/mL |
+| **Dalbavancin** | IV | Two-dose: 1000 mg, then 500 mg one week later. Single-dose: 1500 mg. Paediatric ABSSSI: <6 y 22.5 mg/kg; 6–<18 y 18 mg/kg (max 1500 mg) | 30 min infusion | 500 mg vials in 5% dextrose, 1–5 mg/mL |
+| **Oritavancin** (Orbactiv/Tenkasi) | IV | 1200 mg single dose | 3 h infusion | 400 mg vials in 5% dextrose only, 1.2 mg/mL |
+| **Oritavancin** (Kimyrsa) | IV | 1200 mg single dose | 1 h infusion | 1200 mg vial reconstituted to 4.8 mg/mL |
+
+: Routes, recommended dosages, and infusion characteristics of the glycopeptides and lipoglycopeptides {#tbl-dosing}
+
+## Adverse Reactions
+
+**Infusion-related reactions** — red-man (red-neck) syndrome — are the most common adverse events with vancomycin, occurring in 3.4%–14% of patients during infusion. The reaction is mediated by direct histamine release from cutaneous mast cells (not IgE-mediated) and is preventable by slowing infusion rate (<10 mg/min) and antihistamine premedication.
+
+**Nephrotoxicity** has been reported throughout vancomycin's clinical history. Risk increases with troughs ≥15 mg/L, AUC >650 mg·h/L, concomitant nephrotoxins (especially piperacillin-tazobactam — risk amplified relative to monotherapy or to vancomycin plus cefepime/carbapenem), advanced age, obesity, hypovolaemia, and treatment duration >14 days [@Hidayat2006; @Lodise2020]. Continuous infusion is associated with lower nephrotoxicity than intermittent dosing in meta-analyses [@Hanrahan2015].
+
+::: {.callout-warning}
+## Vancomycin + piperacillin-tazobactam
+The increased risk of AKI with the vancomycin + piperacillin-tazobactam combination is consistent across adult and paediatric cohorts and is amplified relative to vancomycin alone, piperacillin-tazobactam alone, or vancomycin combined with cefepime or a carbapenem. Where feasible, consider alternatives [@Luther2018].
+:::
+
+**Ototoxicity** is uncommon with contemporary vancomycin preparations but can occur — particularly with prolonged courses (>2 weeks) and in very-low-birth-weight infants [@Marissen2020]. Effects are usually reversible.
+
+**Haematologic**: neutropenia in 1%–2% (12%–13% with long-term therapy); thrombocytopenia is rare but may be immune-mediated (vancomycin-dependent platelet-reactive antibodies). Class cross-reactivity with teicoplanin has been described.
+
+**Cutaneous and immune-mediated**: maculopapular rash (~3%), drug fever (~2%); DRESS, linear IgA bullous dermatosis, and Stevens–Johnson syndrome/TEN are rare but reported.
+
+## Drug Interactions
+
+Vancomycin is incompatible in IV solutions with many compounds including ceftazidime, chloramphenicol, methicillin, corticosteroids, heparin, and sodium bicarbonate. Anion-exchange resins (e.g., cholestyramine) bind oral vancomycin in the gut lumen. Concomitant anaesthetics increase the rate of histamine-release reactions — administer the anaesthetic after the vancomycin infusion.
+
+## Clinical Uses
+
+### Skin and soft tissue infections (ABSSSI)
+
+Vancomycin is the comparator in most randomised trials of newer agents against gram-positive ABSSSI; nearly all have demonstrated non-inferiority. Selection among agents depends on local resistance patterns, the possibility of oral step-down or early discharge, tolerability, and cost.
+
+### Bacteraemia and infective endocarditis
+
+Vancomycin remains the recommended therapy for MRSA bacteraemia and right-sided endocarditis when daptomycin is unsuitable, despite recognised limitations (slow bactericidal activity, treatment failure with isolates at the upper end of the susceptible MIC range). The IDSA 2011 MRSA guidelines and updated 2025 IDSA bacteraemia guidance recommend AUC-guided dosing with consideration of alternative therapy for persistent bacteraemia ≥7 days despite adequate exposure [@Liu2011; @Kalil2014].
+
+### Pneumonia
+
+For hospital-acquired and ventilator-associated MRSA pneumonia, vancomycin and linezolid are recommended first-line; clinical equivalence has been demonstrated in most randomised trials, though linezolid achieves higher pulmonary epithelial lining fluid concentrations [@Kalil2014].
+
+### Meningitis and CNS infections
+
+Vancomycin combined with a third-generation cephalosporin is recommended for empirical therapy of bacterial meningitis in adults to cover penicillin-resistant pneumococci, and for CSF shunt–related infections caused by methicillin-resistant staphylococci. Intraventricular dosing supplements systemic therapy when CSF concentrations are inadequate.
+
+### *Clostridioides difficile* colitis
+
+Oral vancomycin (125 mg q6h × 10 days) is recommended for the first episode of non-fulminant *C. difficile* infection by IDSA/SHEA 2021 guidelines, with fidaxomicin preferred when available. For recurrent disease, tapering and pulsed oral vancomycin regimens or fidaxomicin are appropriate.
+
+# Teicoplanin
+
+## Chemistry, Spectrum, and Mechanism
+
+Teicoplanin is a complex of five closely related glycopeptide molecules produced by *Actinoplanes teichomyceticus*, differing from vancomycin by the presence of a fatty-acid side chain that enhances tissue penetration and prolongs half-life. The mechanism of action — D-Ala-D-Ala binding — is identical to vancomycin, and the antimicrobial spectrum largely overlaps, though some staphylococcal species (notably *S. haemolyticus*) exhibit higher teicoplanin MICs. Activity is preserved against VanB enterococci (which remain teicoplanin-susceptible) but lost against VanA-phenotype enterococci.
+
+## Pharmacokinetics
+
+Teicoplanin's defining feature is its long elimination half-life (~70–100 h, considerably longer than vancomycin), permitting once-daily maintenance dosing. Protein binding is high (~90%–95%). Tissue penetration is generally better than vancomycin (bone, joint, skin) but CSF penetration remains poor.
+
+## Therapeutic Drug Monitoring
+
+Steady-state trough levels (measured on day 4) correlate with clinical outcome [@Ueda2020]. Target troughs are:
+
+- **15–30 mg/L** for uncomplicated MRSA infections
+- **20–40 mg/L** for complicated/severe MRSA infections (endocarditis, bone and joint, deep-seated)
+
+Because of the long half-life, a loading regimen is **mandatory** to attain therapeutic concentrations promptly — typically 10–12 mg/kg every 12 h for 3–5 doses depending on indication (see @tbl-dosing). The loading dose should be administered regardless of creatinine clearance; subsequent maintenance is adjusted for renal function.
+
+::: {.callout-important}
+## Loading is essential
+A common mistake — omitting or under-loading teicoplanin — produces sub-therapeutic concentrations for days and is associated with treatment failure, particularly in serious staphylococcal infection [@Ueda2020]. Always load.
+:::
+
+## Clinical Uses
+
+Initial studies using low-dose teicoplanin (3 mg/kg/day) found unacceptably high failure rates (>50%) in severe staphylococcal infection. At higher doses (6–10 mg/kg/day), teicoplanin remained inferior to vancomycin in *S. aureus* endocarditis and intravascular infection, with failure rates linked to troughs <20 mg/L. Modern dosing with aggressive loading and trough-targeted maintenance produces outcomes comparable to vancomycin for many indications, including ABSSSI, bone and joint infection, and outpatient continuation therapy [@Svetitsky2009; @Ueda2020].
+
+Teicoplanin is available across Europe, Asia, and South America but **not in the United States**.
+
+## Adverse Reactions
+
+Teicoplanin is generally less nephrotoxic than vancomycin in meta-analyses [@Svetitsky2009]; the most common adverse events are rash, drug-related fever, and (less commonly) red-neck syndrome. Cross-reactivity for haematologic and hypersensitivity reactions with vancomycin has been described, but is not universal — patients with vancomycin red-neck syndrome or rash often tolerate teicoplanin.
+
+# Telavancin
+
+## Chemistry and Mechanism
+
+Telavancin is a semi-synthetic lipoglycopeptide derived from vancomycin by addition of a decylaminoethyl side chain and a phosphonomethylaminomethyl group. Like vancomycin it binds D-Ala-D-Ala, but its lipid tail also anchors in the bacterial cytoplasmic membrane, depolarising it and disrupting membrane integrity. This **dual mechanism** (cell-wall and membrane) produces concentration-dependent rapid bactericidal activity [@Higgins2005; @Lunde2009].
+
+## Antimicrobial Activity
+
+Telavancin is highly active against MRSA (including VISA and hVISA), methicillin-susceptible *S. aureus*, coagulase-negative staphylococci, streptococci, and vancomycin-susceptible enterococci. MICs are typically 4- to 8-fold lower than vancomycin against susceptible isolates. Telavancin retains activity against most VISA strains but is inactive against VRSA and VanA enterococci.
+
+## Pharmacokinetics
+
+Half-life ~8 h, protein binding ~93%; primarily renal elimination requiring dose adjustment in renal impairment.
+
+## Adverse Reactions
+
+::: {.callout-warning}
+## Boxed warnings
+Telavancin carries U.S. FDA boxed warnings for:
+
+1. **Nephrotoxicity** — higher risk than vancomycin, particularly in patients with pre-existing renal dysfunction.
+2. **Fetal risk** — animal studies show developmental toxicity; pregnancy testing required before initiation in women of childbearing potential.
+
+Additionally, telavancin causes **QTc prolongation** — avoid in patients with congenital long-QT syndrome, uncompensated heart failure, severe LV hypertrophy, or concomitant QT-prolonging drugs.
+:::
+
+Telavancin artifactually elevates several **coagulation assays** (PT, aPTT, INR, activated clotting time) by interfering with phospholipid reagents — draw blood for coagulation studies **before** the next telavancin dose if assessment is needed [@Stryjewski2008].
+
+## Clinical Uses
+
+Telavancin is approved for:
+
+- **Complicated skin and skin-structure infections (cSSSI/ABSSSI)** caused by susceptible gram-positive pathogens (10 mg/kg IV daily) — registrational ATLAS trials demonstrated non-inferiority to vancomycin, with cure rates of 88.3% vs 87.1% [@Stryjewski2005; @Stryjewski2008].
+- **Hospital-acquired and ventilator-associated bacterial pneumonia** caused by *S. aureus* when alternative treatments are not suitable — based on the ATTAIN trials, with caveats around the renal-impaired subgroup where mortality favoured vancomycin [@Rubinstein2011].
+
+# Dalbavancin
+
+## Chemistry and Mechanism
+
+Dalbavancin is a semi-synthetic lipoglycopeptide derived from a teicoplanin-like A40926 backbone, with a lipophilic side chain that confers a strikingly long elimination half-life (~14 days). Mechanism is D-Ala-D-Ala binding with enhanced dimerisation and membrane anchoring relative to vancomycin.
+
+## Antimicrobial Activity
+
+Dalbavancin is highly active against staphylococci (including MRSA, MSSA, coagulase-negative staphylococci), streptococci, and vancomycin-susceptible enterococci. Activity against VISA is preserved but reduced; VanA enterococci and VRSA are resistant.
+
+## Pharmacokinetics
+
+The extraordinary half-life of ~346 h (~14 days) supports single- or two-dose treatment regimens that complete a full antibiotic course on day 1 or day 8. Protein binding ~93%. Renal clearance is the primary route; no dose adjustment needed for hepatic impairment. Approximately 33% of drug remains in plasma at 14 days.
+
+## Adverse Reactions
+
+Generally well tolerated. The most common adverse events are nausea, headache, diarrhoea, mild ALT elevation, and infusion-related pruritus. CYP450 interactions are minimal.
+
+## Clinical Uses
+
+- **ABSSSI**: Approved at 1000 mg IV on day 1 followed by 500 mg one week later, OR a single 1500 mg dose [@Boucher2014; @Dunne2016]. Non-inferior to comparators (vancomycin → linezolid) in DISCOVER 1 and 2.
+- **Osteomyelitis**: Open-label single-arm trials suggest efficacy for diabetic foot osteomyelitis and native vertebral osteomyelitis at 1500 mg followed by 1500 mg one week later [@Rappo2018].
+- **Endocarditis and *S. aureus* bacteraemia**: Subject of active open-label randomised trials [@Tobudic2018].
+
+::: {.callout-tip}
+## Practical advantage
+Single-dose dalbavancin for ABSSSI can avoid hospitalisation entirely and is increasingly used to facilitate ED discharge or to bridge IV-to-outpatient transitions when adherence with oral step-down is uncertain. Cost remains a barrier in many systems.
+:::
+
+# Oritavancin
+
+## Chemistry and Mechanism
+
+Oritavancin is a derivative of chloroeremomycin — itself a vancomycin analogue produced by *Amycolatopsis orientalis*. Like telavancin and dalbavancin, oritavancin has a lipophilic side chain that anchors it in the bacterial membrane, supporting a **triple mechanism**: inhibition of transglycosylation, inhibition of transpeptidation (through binding of a secondary peptidoglycan site beyond D-Ala-D-Ala), and direct membrane depolarisation. This explains its activity against VanA enterococci, which are resistant to all other glycopeptides.
+
+## Antimicrobial Activity
+
+Oritavancin is active against staphylococci (MRSA, VISA, VRSA), streptococci, vancomycin-susceptible and vancomycin-resistant (VanA, VanB) enterococci, and gram-positive anaerobes. Concentration-dependent bactericidal activity.
+
+## Pharmacokinetics
+
+Terminal half-life ~245 h (~10 days). Protein binding ~85%. Long tissue residence allows single-dose dosing for ABSSSI.
+
+## Adverse Reactions and Important Cautions
+
+::: {.callout-warning}
+## Coagulation assay interference
+Oritavancin causes **artifactual prolongation of activated partial thromboplastin time (aPTT) for up to 5 days** by interfering with phospholipid reagents. Therefore:
+
+- Concurrent IV **unfractionated heparin is contraindicated** for 5 days after a dose (aPTT cannot be reliably monitored).
+- For warfarin monitoring within 24 hours, use a non-aPTT-based method (chromogenic assay).
+- PT/INR may also be affected for up to 12 hours; dose adjustments based on aPTT or PT/INR during this period are unreliable.
+:::
+
+Other adverse events include headache, nausea, vomiting, diarrhoea, infusion reactions (flushing, pruritus), and mild ALT elevation. Cytochrome P450 interactions are limited but potential — oritavancin is a weak inhibitor of CYP2C9 and CYP2C19 and a weak inducer of CYP3A4 and CYP2D6.
+
+## Clinical Uses
+
+- **ABSSSI**: Approved at 1200 mg IV as a single dose (Orbactiv/Tenkasi over 3 h, or Kimyrsa over 1 h). Non-inferior to twice-daily vancomycin for 7–10 days in SOLO I and SOLO II [@Corey2014b; @Corey2015].
+- **Off-label uses**: open-label data describe use for osteomyelitis, prosthetic joint infection, and bacteraemia [@VanHise2020]. Single- or multi-dose regimens have been employed.
+
+# Comparative Summary
+
+| Feature | Vancomycin | Teicoplanin | Telavancin | Dalbavancin | Oritavancin |
+|---|---|---|---|---|---|
+| Mechanism | D-Ala-D-Ala | D-Ala-D-Ala | D-Ala-D-Ala + membrane | D-Ala-D-Ala + dimerisation | D-Ala-D-Ala + secondary binding + membrane |
+| MRSA | ✓ | ✓ | ✓ | ✓ | ✓ |
+| VISA | ✓ (reduced) | variable | ✓ | ✓ (reduced) | ✓ |
+| VRSA | ✗ | ✗ | ✗ | ✗ | ✓ |
+| VanA enterococci | ✗ | ✗ | ✗ | ✗ | ✓ |
+| VanB enterococci | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Half-life | 6–12 h | 70–100 h | 8 h | ~346 h (~14 d) | ~245 h (~10 d) |
+| Renal adjustment | Yes | Yes | Yes | No | No |
+| Hepatic adjustment | No | No | No | No | No |
+| Pregnancy | Category B/C | Use with caution | Boxed warning | Use only if benefit > risk | Use only if benefit > risk |
+| Key AE concern | Nephrotoxicity, red-neck | Less nephrotoxic | Nephrotoxicity, QTc, coag assays | Generally well tolerated | aPTT interference (5 d) |
+| US availability | ✓ | ✗ | ✓ | ✓ | ✓ |
+
+: Comparative summary of glycopeptides and lipoglycopeptides {#tbl-comparison}
+
+# Stewardship Considerations
+
+The lipoglycopeptides — particularly dalbavancin and oritavancin with their multi-week post-dose tissue persistence — raise important antimicrobial stewardship questions:
+
+1. **Selection pressure**: prolonged sub-MIC tissue concentrations could in principle select for resistance, though this has not been documented at scale in surveillance studies to date [@Streit2005]. Monitoring is warranted.
+2. **Operational use**: single-dose ABSSSI therapy can avoid admission, reduce length of stay, and bridge transitions of care — but requires clear protocols for patient selection (excluding deep infection, sepsis, and infections needing source control).
+3. **Cost**: acquisition cost is high; cost-effectiveness depends on local hospitalisation costs, the availability of OPAT (outpatient parenteral antimicrobial therapy), and the alternative oral options.
+4. **Off-label use**: in osteomyelitis, prosthetic joint infection, and bacteraemia, single-dose regimens are increasingly used, but the evidence base remains predominantly observational. Prospective controlled trials are in progress.
+
+# Conclusions
+
+Vancomycin remains the workhorse for serious gram-positive infection, with AUC-guided dosing now standard for serious MRSA infection. Teicoplanin offers an attractive alternative in regions where it is available, with possibly lower nephrotoxicity and once-daily dosing. The lipoglycopeptides — telavancin, dalbavancin, oritavancin — have expanded the therapeutic options, with dalbavancin and oritavancin in particular offering single- or two-dose regimens uniquely suited to ABSSSI and selected off-label indications. The high cost of these newer agents and the need for prospective evidence in serious off-label uses limit broader deployment.
+
+::: {.callout-note}
+## Dedication
+This chapter is dedicated to the memory of Dr. Barbara Murray (1947–2023), trailblazer in infectious diseases, fearless leader, exceptional scientist, and everlasting mentor.
+:::
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
