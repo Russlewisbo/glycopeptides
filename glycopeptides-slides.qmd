@@ -71,9 +71,9 @@ Teicoplanin has been in clinical use in Europe since the late 1980s but never re
 
 ## Mechanism of action
 
-<br>
-
 ![](glycopeptides-images/MOA.png){fig-align="center" width="1000"}
+
+<br>
 
 ::: aside
 Glycopeptides are bactericidal but slowly so compared to beta-lactams. The AUC/MIC index reflects this — duration of exposure matters more than peak. The lipoglycopeptides modify this with concentration-dependent activity from their membrane component, which is why they tolerate single-dose regimens [@Reynolds1989].
@@ -106,7 +106,7 @@ The added **lipid tail** in telavancin, dalbavancin, and oritavancin produces tw
 - **Membrane anchoring** → depolarisation, increased permeability (most pronounced with telavancin and oritavancin)
 - **Dimerisation enhancement** → higher avidity for target
 
-Net result: faster bactericidal kinetics, activity against some VISA/hVISA strains, and (for oritavancin) activity against VanA enterococci.
+**Net result:** faster bactericidal kinetics, activity against some VISA/hVISA strains, and (for oritavancin) activity against VanA enterococci.
 
 ::: aside
 [@Higgins2005; @Lunde2009]
@@ -116,7 +116,7 @@ Net result: faster bactericidal kinetics, activity against some VISA/hVISA strai
 The "dual mechanism" of telavancin and the "triple mechanism" of oritavancin are often presented in marketing materials. The clinically relevant consequences are: (1) preserved or enhanced activity against organisms with reduced vancomycin susceptibility, (2) faster kill in vitro and in vivo, and (3) for oritavancin specifically, retained activity against VanA enterococci because of the secondary peptidoglycan binding site.
 :::
 
-# Vancomycin
+# Vancomycin {background-color="#b20e10"}
 
 ## Vancomycin structure
 
@@ -127,7 +127,7 @@ The "dual mechanism" of telavancin and the "triple mechanism" of oritavancin are
 - Peptide backbone binds D-Ala-D-Ala via **five hydrogen bonds**
 - High-affinity binding defines class activity but limits target flexibility
 
-<!-- IMAGE NEEDED: Vancomycin chemical structure showing the heptapeptide core and the D-Ala-D-Ala binding pocket -->
+![](glycopeptides-images/vancomycin.png){fig-align="center" width="350"}
 
 ::: notes
 A structural figure would be ideal here — many open-access sources have vancomycin chemical structures. Wikimedia Commons has a CC-licensed structure. The point I want students to take away is that the high-affinity binding is both vancomycin's strength (potent activity) and weakness (one mutation in the target wipes out activity).
@@ -143,12 +143,10 @@ A structural figure would be ideal here — many open-access sources have vancom
 - Use dropped after methicillin (1960) and the new β-lactams arrived
 - Re-emergence in the 1980s with rising MRSA prevalence → use went from \~2 tonnes/yr (1984) to \>11 tonnes/yr (1996) in the US alone
 
-::: aside
-[@Kirst1998]
-:::
+![](glycopeptides-images/mud.png){fig-align="center" width="350"}
 
-::: notes
-The "Mississippi mud" history is more than a curiosity — early purity problems anchored vancomycin's reputation for toxicity, which we now know was partly driven by contaminants rather than the molecule itself. Modern preparations have a much better safety profile, which matters when reading older comparative literature.
+::: aside
+The "Mississippi mud" history is more than a curiosity — early purity problems anchored vancomycin's reputation for toxicity, which we now know was partly driven by contaminants rather than the molecule itself. Modern preparations have a much better safety profile, which matters when reading older comparative literature [@Kirst1998].
 :::
 
 ## Vancomycin spectrum
@@ -193,7 +191,7 @@ Remember that vancomycin is bacteriostatic against enterococci, not bactericidal
 This penetration table is worth memorising. The bone and CSF penetration limitations explain why we often need high-dose vancomycin for osteomyelitis or meningitis, and why intraventricular vancomycin is needed for shunt infections despite adequate IV dosing. Lung ELF penetration is the often-cited disadvantage vs linezolid for MRSA pneumonia.
 :::
 
-# Vancomycin resistance — VRE
+# Vancomycin resistance — VRE {background-color="#b20e10"}
 
 ## VRE epidemiology
 
@@ -224,13 +222,15 @@ Russ — for the Italian audience, EARS-Net data show Italy at the higher end of
 | **VanD, VanM** | High | R | R | D-Ala-D-lactate |
 | **VanE, VanG, VanL, VanN** | Low | R | S | D-Ala-D-serine |
 
+<br> <br>
+
 The key trick: **substitution of D-Ala-D-Ala with D-Ala-D-lactate or D-Ala-D-serine** at the peptidoglycan terminus reduces vancomycin affinity by \~1000-fold (lactate) or \~7-fold (serine).
 
 ::: aside
 [@Ahmed2018; @Guffey2021]
 :::
 
-::: notes
+::: aside
 VanB is the one to remember clinically: vancomycin-resistant but teicoplanin-susceptible because vanRSB doesn't induce expression in response to teicoplanin. So in regions with predominantly VanB phenotype, teicoplanin can still be useful for enterococcal infections. VanA induces with either drug. The lactate substitution removes one of five hydrogen bonds that anchor vancomycin to D-Ala-D-Ala — and that single missing bond reduces binding affinity by three orders of magnitude.
 :::
 
@@ -238,12 +238,20 @@ VanB is the one to remember clinically: vancomycin-resistant but teicoplanin-sus
 
 <br>
 
+::::: columns
+::: {.column width="50%"}
+![](glycopeptides-images/vde.png){fig-align="center" width="250"}
+:::
+
+::: {.column width="50%"}
 - Rare but described: enterococci that **require vancomycin to grow**
 - Mechanism: loss of endogenous D-Ala-D-Ala ligase; rely entirely on vancomycin-induced D-Ala-D-Lac ligase
 - Practical impact: undetectable on routine media without vancomycin
 - Can revert to vancomycin-independent
+:::
+:::::
 
-::: notes
+::: aside
 Mostly a microbiology curiosity but worth knowing — VDE strains can be missed on standard cultures and may be flagged by alert lab staff who notice growth only on vancomycin-containing media.
 :::
 
