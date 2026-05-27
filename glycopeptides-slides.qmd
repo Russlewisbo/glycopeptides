@@ -59,7 +59,7 @@ By the end of this lecture, you should be able to:
 <br>
 
 |   | Vancomycin | Teicoplanin | Telavancin | Dalbavancin | Oritavancin |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | **Class** | Glycopeptide | Glycopeptide | Lipoglycopeptide | Lipoglycopeptide | Lipoglycopeptide |
 | **Year approved** | 1958 | 1988 (EU) | 2009 | 2014 | 2014 |
 | **Half-life** | 6–12 h | 70–100 h | \~8 h | \~346 h | \~245 h |
@@ -173,7 +173,7 @@ Remember that vancomycin is bacteriostatic against enterococci, not bactericidal
 <br>
 
 | Tissue | Penetration | Notes |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Lung epithelial lining fluid | \~20% serum | Lower than linezolid (\~415%) |
 | Bone | \~10–30% | Variable; consider higher doses |
 | CSF (inflamed meninges) | 7–21% | Inadequate without inflammation |
@@ -262,7 +262,7 @@ Mostly a microbiology curiosity but worth knowing — VDE strains can be missed 
 <br>
 
 | Strain | MIC | Mechanism | Frequency |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Susceptible** | ≤2 μg/mL | Wild type | Majority of *S. aureus* |
 | **hVISA** | ≤2 (population); 4–8 (subpopulation) | Cell wall thickening; TCS mutations (GraSR, WalKR, VraTSR) | \~6% global pooled prevalence |
 | **VISA** | 4–8 μg/mL | Same as hVISA, more pronounced | \<0.5% globally |
@@ -403,7 +403,7 @@ The obesity dosing question comes up a lot. The current consensus is to dose by 
 <br>
 
 | Population | Recommended dose | Comment |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Adult, normal renal function | 15–20 mg/kg q8–12 h | Use actual body weight |
 | Severe sepsis / endocarditis / meningitis | Loading 25–30 mg/kg → 15–20 mg/kg q8–12 h | Loading ≤500 mg/h |
 | Continuous infusion | 30–40 mg/kg/day after 15 mg/kg loading | Lower AKI; equivalent efficacy |
@@ -575,7 +575,7 @@ The dapto + ceftaroline combination has become standard rescue therapy in many a
 <br>
 
 | Agent | Pros | Cons |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Linezolid** 600 mg q12h | Oral option; effective; widely available | Bone marrow suppression with prolonged use; serotonin syndrome with SSRIs |
 | **Daptomycin** ≥10 mg/kg | Bactericidal; once-daily | High doses needed; resistance emergence reported |
 | **Tigecycline** | Activity vs VRE | Low serum levels; FDA mortality signal |
@@ -642,7 +642,7 @@ The half-life advantage and possibly lower nephrotoxicity make teicoplanin attra
 <br>
 
 | Indication | Target trough (mg/L) | Loading regimen |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Uncomplicated MRSA / soft tissue | 15–30 | 10 mg/kg q12h × 5 doses OR 12 mg/kg q12h × 3 doses |
 | Complicated / serious MRSA (endocarditis, bone) | 20–40 | 12 mg/kg q12h × 5 doses |
 | Non-MRSA, less serious | — | 6 mg/kg q12h × 3 doses |
@@ -703,7 +703,7 @@ Russ — given the Italian audience, teicoplanin is very much in routine use her
 <br>
 
 |   | Telavancin | Dalbavancin | Oritavancin |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Parent compound** | Vancomycin | A40926 (teicoplanin-like) | Chloroeremomycin (vancomycin analog) |
 | **t½** | \~8 h | \~346 h (\~14 d) | \~245 h (\~10 d) |
 | **Dosing** | 10 mg/kg q24h | 1000 mg + 500 mg/wk OR 1500 mg × 1 | 1200 mg × 1 |
@@ -1004,7 +1004,7 @@ The prolonged sub-MIC exposure issue is the elephant in the room with single-dos
 <br>
 
 | Scenario | First-line | Lipoglycopeptide role |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | ABSSSI, inpatient, oral step-down possible | Vancomycin → oral step-down | Single-dose dalbavancin if ED discharge desired |
 | ABSSSI, ED, avoid admission | — | Single-dose dalbavancin or oritavancin |
 | MRSA bacteraemia, complicated | Vancomycin (AUC) or daptomycin | Dalbavancin for continuation (off-label) |
@@ -1261,7 +1261,7 @@ The prolonged sub-MIC exposure issue is the elephant in the room with single-dos
 <br>
 
 | Scenario | First-line | Lipoglycopeptide role |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | ABSSSI, inpatient, oral step-down possible | Vancomycin → oral step-down | Single-dose dalbavancin if ED discharge desired |
 | ABSSSI, ED, avoid admission | — | Single-dose dalbavancin or oritavancin |
 | MRSA bacteraemia, complicated | Vancomycin (AUC) or daptomycin | Dalbavancin for continuation (off-label) |
