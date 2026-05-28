@@ -22,7 +22,7 @@ bibliography: glycopeptides-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Glycopeptide and Lipopeptide Antibiotics {background-video="staphy.mp4" background-video-loop="true" background-video-muted="true" background-opacity="0.35" background-color="#b20e10"}
+## Glycopeptide and Lipopeptide Antibiotics {background-video="glycopeptides-images/staphy.mp4" background-video-loop="true" background-video-muted="true" background-opacity="0.35" background-color="#b20e10"}
 
 <br>
 
