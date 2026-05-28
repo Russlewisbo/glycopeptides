@@ -22,7 +22,7 @@ bibliography: glycopeptides-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Glycopeptide and Lipopeptide Antibiotics {background-color="#b20e10"}
+## Glycopeptide and Lipopeptide Antibiotics {background-video="staphy.mp4" background-video-loop="true" background-video-muted="true" background-opacity="0.35" background-color="#b20e10"}
 
 <br>
 
@@ -95,11 +95,7 @@ The 1000-fold affinity loss from a single hydrogen bond substitution is one of t
 
 ## Why lipoglycopeptides act differently
 
-![](glycopeptides-images/lipd_tail.png){fig-align="center" width="1000"}
-
-::: aside
-**Net result:** faster bactericidal kinetics, activity against some VISA/hVISA strains, and (for oritavancin) activity against VanA enterococci.
-:::
+![](glycopeptides-images/lipd_tail.png){fig-align="center" width="800"}
 
 ::: aside
 The "dual mechanism" of telavancin and the "triple mechanism" of oritavancin are often presented in marketing materials. The clinically relevant consequences are: (1) preserved or enhanced activity against organisms with reduced vancomycin susceptibility, (2) faster kill in vitro and in vivo, and (3) for oritavancin specifically, retained activity against VanA enterococci because of the secondary peptidoglycan binding site[@Higgins2005; @Lunde2009].
@@ -416,7 +412,6 @@ Intraventricular vancomycin is something every ID consultant should be comfortab
 :::
 
 ::: {.column width="50%"}
-
 - Rapid erythematous flushing of head, face, neck, upper trunk during infusion
 - Often with pruritus, occasionally hypotension/angioedema
 - **Mechanism: direct mast cell histamine release** — not IgE-mediated
@@ -443,7 +438,6 @@ Common exam question and common clinical scenario. Thisis not an allergy, it's a
 
 **Mechanisms**: oxidative tubular injury, immune-mediated interstitial nephritis, intratubular cast obstruction
 
-
 ::: aside
 The vancomycin + piperacillin-tazobactam AKI signal is one of the more discussed associations of the past decade. The risk is amplified when these two drugs are combined relative to either alone or vancomycin combined with cefepime or a carbapenem. Mechanism is still debated — some argue it's a tubular casting artefact rather than true injury, but functional creatinine rises do happen. Where feasible, consider alternatives or limit duration [@Hidayat2006; @Lodise2020].
 :::
@@ -463,7 +457,7 @@ The vancomycin + piperacillin-tazobactam AKI signal is one of the more discussed
 [@Marissen2020]
 :::
 
-::: notes
+::: aside
 Linear IgA bullous dermatosis is the boards-favourite vancomycin association — sub-epidermal vesicles with characteristic IgA deposition on direct immunofluorescence. Resolves on drug withdrawal. Worth recognising clinically.
 :::
 
@@ -472,7 +466,7 @@ Linear IgA bullous dermatosis is the boards-favourite vancomycin association —
 <br>
 
 - **AUC-guided dosing** with target 400–600 mg·h/L
-- Avoid concomitant nephrotoxins (especially **piperacillin-tazobactam** — use cefepime or carbapenem if combination needed)
+- Avoid concomitant nephrotoxins (consider avoiding **piperacillin-tazobactam** — use cefepime or carbapenem if combination needed)
 - Maintain euvolaemia; correct hypovolaemia before high-dose courses
 - Reassess need for vancomycin daily; **de-escalate** if MRSA ruled out
 - Consider continuous infusion in critically ill patients
@@ -482,11 +476,11 @@ Linear IgA bullous dermatosis is the boards-favourite vancomycin association —
 [@Rybak2020; @Luther2018]
 :::
 
-::: notes
+::: aside
 This is bedside-practical. The single most impactful change in your unit is probably switching empirical regimens from vanc+pip-tazo to vanc+cefepime or vanc+carbapenem (or moving away from empirical vancomycin entirely when there's no compelling MRSA reason). De-escalation is undervalued — many patients stay on vancomycin for days past the point where it's needed.
 :::
 
-# Vancomycin clinical uses
+# Vancomycin clinical uses {background-color="#b20e10"}
 
 ## MRSA bacteraemia and endocarditis
 
@@ -521,7 +515,7 @@ The IDSA 2025 updated bacteraemia guidance is even more permissive of alternativ
 [@Kalil2016]
 :::
 
-::: notes
+::: aside
 Necrotising MRSA pneumonia is the scenario where the toxin-suppression argument for linezolid (or clindamycin combination) becomes important. The evidence is mostly observational but the mechanism is biologically plausible — protein-synthesis inhibitors reduce expression of PVL and other exotoxins.
 :::
 
@@ -533,14 +527,14 @@ Necrotising MRSA pneumonia is the scenario where the toxin-suppression argument 
 - **Daptomycin + ceftaroline** combination — synergy in vitro; observational survival benefit in persistent bacteraemia
 - **Daptomycin + β-lactam (oxacillin, nafcillin, anti-staphylococcal penicillin)** — "seesaw effect"
 - **Ceftaroline monotherapy** — option for daptomycin-non-susceptible
-- **Linezolid** — bacteriostatic, generally not first choice for bacteraemia but role in refractory cases
+- **Linezolid** — "bacteriostatic," generally not first choice for bacteraemia but role in refractory cases
 - **Investigational**: oritavancin or dalbavancin for off-label bacteraemia / endocarditis continuation
 
 ::: aside
 [@Geriak2019]
 :::
 
-::: notes
+::: aside
 The dapto + ceftaroline combination has become standard rescue therapy in many academic centres for persistent MRSA bacteraemia, based on the 2019 Geriak RCT (small but suggestive of survival benefit). The seesaw effect — daptomycin susceptibility *improves* with concomitant β-lactam exposure — is the molecular rationale. For most patients, switching from vancomycin to high-dose daptomycin alone is the simpler first move.
 :::
 
@@ -581,7 +575,8 @@ Standard empirical regimen most ID consultants give in their sleep — but worth
 
 <br>
 
-- **Oral vancomycin 125 mg q6h × 10 days** — first-line for non-fulminant initial episode (IDSA/SHEA 2021)
+- **Oral vancomycin 125 mg q6h × 10 days**
+  - first-line for non-fulminant initial episode (IDSA/SHEA 2021)
 - **Fidaxomicin** preferred when available (lower recurrence)
 - Recurrent CDI: tapering/pulsed oral vancomycin OR fidaxomicin OR bezlotoxumab adjunct
 - Fulminant disease: vancomycin 500 mg q6h PO + metronidazole 500 mg IV q8h ± rectal vancomycin
@@ -594,7 +589,7 @@ Standard empirical regimen most ID consultants give in their sleep — but worth
 Oral vancomycin is not absorbed systemically — fecal concentrations are 1000+ μg/g — so therapeutic drug monitoring isn't relevant. Watch for the very rare scenario of detectable serum levels in patients with severe colonic inflammation and renal failure receiving high-dose oral.
 :::
 
-# Teicoplanin
+# Teicoplanin {background-color="#b20e10"}
 
 ## Teicoplanin — distinguishing features
 
@@ -607,7 +602,7 @@ Oral vancomycin is not absorbed systemically — fecal concentrations are 1000+ 
 - **VanA**: resistant; **VanB**: susceptible (no induction)
 - **Not available in the United States**
 
-::: notes
+::: aside
 The half-life advantage and possibly lower nephrotoxicity make teicoplanin attractive where it's available. The US not having it is mostly a regulatory and commercial story — Marion-Merrell Dow filed but withdrew in the 1990s, and no one has refiled.
 :::
 
@@ -621,14 +616,15 @@ The half-life advantage and possibly lower nephrotoxicity make teicoplanin attra
 | Complicated / serious MRSA (endocarditis, bone) | 20–40 | 12 mg/kg q12h × 5 doses |
 | Non-MRSA, less serious | — | 6 mg/kg q12h × 3 doses |
 
+<br>
+
 **Maintenance**: 6 mg/kg/day after loading. **Always load** — half-life is too long to wait for steady state.
 
 ::: aside
-[@Pea2003]
 :::
 
-::: notes
-This is THE teaching point on teicoplanin: failing to load is the most common reason for treatment failure. Trough \<20 mg/L on day 4 is associated with worse outcomes in *S. aureus* infection. The loading regimen scales with infection severity. Many older European practice patterns under-dose teicoplanin because they predate the modern target-trough literature.
+::: aside
+Failing to load is the most common reason for treatment failure. Trough \<20 mg/L on day 4 is associated with worse outcomes in *S. aureus* infection. The loading regimen scales with infection severity. Many older European practice patterns under-dose teicoplanin because they predate the modern target-trough literature [@Pea2003].
 :::
 
 ## Teicoplanin — practical pearls
@@ -642,7 +638,7 @@ This is THE teaching point on teicoplanin: failing to load is the most common re
 - For VanB enterococcal endocarditis, teicoplanin remains a legitimate option
 - Continued therapy at home (OPAT): once-daily dosing supports this
 
-::: notes
+::: aside
 The IM administration option is a small but real practical advantage — useful in patients with difficult IV access where lipoglycopeptides aren't appropriate. The once-daily home OPAT use case is common in European practice but underused even where teicoplanin is available.
 :::
 
@@ -663,14 +659,13 @@ The IM administration option is a small but real practical advantage — useful 
 - With aggressive loading and target-trough maintenance, modern outcomes comparable
 
 ::: aside
-[@Svetitsky2009]
 :::
 
-::: notes
-Russ — given the Italian audience, teicoplanin is very much in routine use here. The 2009 Svetitsky meta-analysis is the standard reference on nephrotoxicity comparison — about a 40% lower relative risk of nephrotoxicity with teicoplanin vs vancomycin. Efficacy comparable when adequately loaded and dosed.
+::: aside
+The 2009 Svetitsky meta-analysis is the standard reference on nephrotoxicity comparison — about a 40% lower relative risk of nephrotoxicity with teicoplanin vs vancomycin. Efficacy comparable when adequately loaded and dosed [@Svetitsky2009].
 :::
 
-# Lipoglycopeptides — the three newcomers
+# Lipoglycopeptides <br>— the three newcomers {background-color="#b20e10"}
 
 ## Three drugs, three personalities
 
@@ -687,14 +682,10 @@ Russ — given the Italian audience, teicoplanin is very much in routine use her
 | **Coag assay issue** | PT/aPTT/INR | None | aPTT × 5 days |
 
 ::: aside
-[@Vibativ2009; @Durata2017; @Orbactiv2018]
+This single comparison table captures most of what's clinically distinguishing about the three. The half-life differences and the coag-assay issues are what most affect practical decision-making [@Vibativ2009; @Durata2017; @Orbactiv2018].
 :::
 
-::: notes
-This single comparison table captures most of what's clinically distinguishing about the three. The half-life differences and the coag-assay issues are what most affect practical decision-making.
-:::
-
-# Telavancin
+# Telavancin {background-color="#b20e10"}
 
 ## Telavancin mechanism and spectrum
 
@@ -706,12 +697,8 @@ This single comparison table captures most of what's clinically distinguishing a
 - **Activity preserved** against most VISA, hVISA
 - **Inactive** against VRSA, VanA enterococci
 
-::: aside
-[@Higgins2005]
-:::
-
 ::: notes
-The dual mechanism is the marketing pitch. Clinically, the lower MIC and faster bactericidal kinetics matter most for high-inoculum infections like endocarditis (where telavancin was never developed as a primary indication, oddly).
+The dual mechanism is the marketing pitch. Clinically, the lower MIC and faster bactericidal kinetics matter most for high-inoculum infections like endocarditis (where telavancin was never developed as a primary indication, oddly) [@Higgins2005].
 :::
 
 ## Telavancin — the boxed warnings
@@ -750,7 +737,7 @@ Three boxed warnings is a lot, and they have substantially limited uptake. Telav
 The HAP/VAP indication came with the caveat — "when alternative treatments are not suitable" — because of the mortality signal in renal-impaired patients. This is a typical FDA pattern when efficacy is there but safety is wobbly.
 :::
 
-# Dalbavancin
+# Dalbavancin {background-color="#b20e10"}
 
 ## Dalbavancin — defining feature is half-life
 
@@ -762,12 +749,8 @@ The HAP/VAP indication came with the caveat — "when alternative treatments are
 - Activity: MRSA, MSSA, CoNS, streptococci, vancomycin-susceptible enterococci
 - Activity reduced against VISA; **inactive** against VRSA, VanA enterococci
 
-::: aside
-[@Boucher2014]
-:::
-
 ::: notes
-The half-life is the headline. Two-dose or single-dose treatment that delivers a full course on day 1 — the clinical operational implications are huge for outpatient management of skin infections.
+The half-life is the headline. Two-dose or single-dose treatment that delivers a full course on day 1 — the clinical operational implications are huge for outpatient management of skin infections [@Boucher2014].
 :::
 
 ## Dalbavancin — clinical trial backbone
@@ -776,15 +759,18 @@ The half-life is the headline. Two-dose or single-dose treatment that delivers a
 
 - **DISCOVER 1 and 2** (Boucher 2014): two-dose regimen (1000 mg + 500 mg/wk) non-inferior to vancomycin → linezolid for ABSSSI
 - **DUR001-303** (Dunne 2016): single-dose 1500 mg non-inferior to two-dose regimen
-- **DOTS** (Rappo 2019): open-label single-arm cohort for diabetic foot osteomyelitis — promising
+- **Rappo 2018**: randomized comparator-controlled trial for adult osteomyelitis — high cure rates with two-dose dalbavancin
+- **DOTS** (Turner 2025): RCT, dalbavancin (days 1 + 8) vs standard IV therapy for completion treatment in complicated *S. aureus* bacteraemia after blood-culture clearance — not superior but noninferior; comparable safety
 - **Vertebral osteomyelitis** (open-label cohort): efficacious; growing real-world experience
 
 ::: aside
-[@Boucher2014; @Dunne2016; @Rappo2018]
+DISCOVER trials established ABSSSI indication. The single-dose 1500 mg regimen (Dunne 2016) is increasingly preferred for operational simplicity. Off-label use in osteomyelitis and infective endocarditis is growing fast — particularly in IV drug users and other populations where adherence to prolonged IV therapy is challenging [@Boucher2014; @Dunne2016; @Rappo2018; @Turner2025] .
 :::
 
-::: notes
-DISCOVER trials established ABSSSI indication. The single-dose 1500 mg regimen (Dunne 2016) is increasingly preferred for operational simplicity. Off-label use in osteomyelitis and infective endocarditis is growing fast — particularly in IV drug users and other populations where adherence to prolonged IV therapy is challenging.
+## DOTS- Pharmacokinetic data
+
+::: aside
+[@lodise2026]
 :::
 
 ## Dalbavancin in people who inject drugs (PWID)
@@ -795,14 +781,15 @@ DISCOVER trials established ABSSSI indication. The single-dose 1500 mg regimen (
 - Single 1500 mg dose covers \~2 weeks of therapy without IV access
 - **Observational cohorts**: outcomes comparable to standard IV therapy in selected patients
 - **Caveats**: requires careful selection (source controlled, no metastatic complications)
-- Multiple RCTs in progress (e.g., DOTS-2 for endocarditis)
+- **DOTS (Turner 2025)** included right-sided native valve endocarditis; showed noninferiority to standard IV therapy — first RCT data in this population
+- Dedicated left-sided or prosthetic valve endocarditis RCT data remain absent; further trials needed
 
 ::: aside
-[@Bork2019; @Wunsch2019]
+[@Bork2019; @Wunsch2019; @Turner2025]
 :::
 
 ::: notes
-This is one of the most discussed off-label applications of dalbavancin. The clinical reasoning is straightforward — these patients are at high risk for line infections, often leave AMA, and can't reliably complete a 4-6 week IV course. A single dose of dalbavancin delivers measurable advantages. The evidence base is observational but growing rapidly; prospective RCTs are needed to confirm non-inferiority to standard care.
+This is one of the most discussed off-label applications of dalbavancin. The clinical reasoning is straightforward — these patients are at high risk for line infections, often leave AMA, and can't reliably complete a 4-6 week IV course. The DOTS trial (Turner 2025) is the first RCT to provide data covering this population, including right-sided endocarditis, and showed dalbavancin to be noninferior to standard therapy. Left-sided and prosthetic valve endocarditis remain entirely observational.
 :::
 
 ## Dalbavancin — practical use
