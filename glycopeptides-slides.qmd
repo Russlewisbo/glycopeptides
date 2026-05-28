@@ -59,7 +59,7 @@ By the end of this lecture, you should be able to:
 <br>
 
 |   | Vancomycin | Teicoplanin | Telavancin | Dalbavancin | Oritavancin |
-|----|----|----|----|----|----|
+|------------|------------|------------|------------|------------|------------|
 | **Class** | Glycopeptide | Glycopeptide | Lipoglycopeptide | Lipoglycopeptide | Lipoglycopeptide |
 | **Year approved** | 1958 | 1988 (EU) | 2009 | 2014 | 2014 |
 | **Half-life** | 6–12 h | 70–100 h | \~8 h | \~346 h | \~245 h |
@@ -158,7 +158,7 @@ Remember that vancomycin is bacteriostatic against enterococci, not bactericidal
 <br>
 
 | Tissue | Penetration | Notes |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Lung epithelial lining fluid | \~20% serum | Lower than linezolid (\~415%) |
 | Bone | \~10–30% | Variable; consider higher doses |
 | CSF (inflamed meninges) | 7–21% | Inadequate without inflammation |
@@ -251,7 +251,7 @@ Mostly a microbiology curiosity but worth knowing — VDE strains can be missed 
 <br>
 
 | Strain | MIC | Mechanism | Frequency |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | **Susceptible** | ≤2 μg/mL | Wild type | Majority of *S. aureus* |
 | **hVISA** | ≤2 (population); 4–8 (subpopulation) | Cell wall thickening; TCS mutations (GraSR, WalKR, VraTSR) | \~6% global pooled prevalence |
 | **VISA** | 4–8 μg/mL | Same as hVISA, more pronounced | \<0.5% globally |
@@ -367,7 +367,7 @@ The obesity dosing question comes up a lot. The current consensus is to dose by 
 <br>
 
 | Population | Recommended dose | Comment |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Adult, normal renal function | 15–20 mg/kg q8–12 h | Use actual body weight |
 | Severe sepsis / endocarditis / meningitis | Loading 25–30 mg/kg → 15–20 mg/kg q8–12 h | Loading ≤500 mg/h |
 | Continuous infusion | 30–40 mg/kg/day after 15 mg/kg loading | Lower AKI; equivalent efficacy |
@@ -539,7 +539,7 @@ The dapto + ceftaroline combination has become standard rescue therapy in many a
 <br>
 
 | Agent | Pros | Cons |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Linezolid** 600 mg q12h | Oral option; effective; widely available | Bone marrow suppression with prolonged use; serotonin syndrome with SSRIs |
 | **Daptomycin** ≥10 mg/kg | Bactericidal; once-daily | High doses needed; resistance emergence reported |
 | **Tigecycline** | Activity vs VRE | Low serum levels; FDA mortality signal |
@@ -607,7 +607,7 @@ The half-life advantage and possibly lower nephrotoxicity make teicoplanin attra
 <br>
 
 | Indication | Target trough (mg/L) | Loading regimen |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Uncomplicated MRSA / soft tissue | 15–30 | 10 mg/kg q12h × 5 doses OR 12 mg/kg q12h × 3 doses |
 | Complicated / serious MRSA (endocarditis, bone) | 20–40 | 12 mg/kg q12h × 5 doses |
 | Non-MRSA, less serious | — | 6 mg/kg q12h × 3 doses |
@@ -668,7 +668,7 @@ The 2009 Svetitsky meta-analysis is the standard reference on nephrotoxicity com
 <br>
 
 |   | Telavancin | Dalbavancin | Oritavancin |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | **Parent compound** | Vancomycin | A40926 (teicoplanin-like) | Chloroeremomycin (vancomycin analog) |
 | **t½** | \~8 h | \~346 h (\~14 d) | \~245 h (\~10 d) |
 | **Dosing** | 10 mg/kg q24h | 1000 mg + 500 mg/wk OR 1500 mg × 1 | 1200 mg × 1 |
@@ -885,18 +885,10 @@ The growing off-label use of dalbavancin for endocarditis and prosthetic joint i
 
 ## Oritavancin — the triple-mechanism agent
 
-<br>
-
-- Derivative of **chloroeremomycin** (vancomycin analogue from *A. orientalis*)
-- Lipophilic side chain
-- **Three mechanisms**:
-  1.  D-Ala-D-Ala binding (cell wall)
-  2.  Binding of secondary peptidoglycan site (transpeptidation inhibition independent of D-Ala-D-Ala)
-  3.  Membrane depolarisation
-- → **Active against VanA enterococci and VRSA** (unique in the class)
+![](glycopeptides-images/oritavancin.png){fig-align="center" width="800"}
 
 ::: aside
-The secondary binding site is what gives oritavancin its activity against VanA. The cell-wall precursors of VanA enterococci end in D-Ala-D-lactate, which vancomycin cannot bind effectively, **but oritavancin can still inhibit transpeptidation through its alternative binding site.** This is genuinely useful clinically — oritavancin is one of the few glycopeptide-class drugs that works against VRE.[@Allen2003]
+The secondary binding site is what gives oritavancin its activity against VanA. The cell-wall precursors of VanA enterococci end in D-Ala-D-lactate, which vancomycin cannot bind effectively, **but oritavancin can still inhibit transpeptidation through its alternative binding site.** This is genuinely useful clinically — oritavancin is one of the few glycopeptide-class drugs that works against VRE [@Allen2003].
 :::
 
 ## Oritavancin clinical evidence
@@ -912,11 +904,7 @@ The secondary binding site is what gives oritavancin its activity against VanA. 
 - Two formulations: **Orbactiv/Tenkasi** (3 h infusion) and **Kimyrsa** (1 h infusion)
 
 ::: aside
-[@Corey2015; @VanHise2020]
-:::
-
-::: notes
-The 1-hour Kimyrsa formulation is increasingly preferred operationally over the 3-hour Orbactiv. Same drug, different vehicle. Off-label use for VRE bacteraemia is increasingly reported and is the most distinctive niche for oritavancin given the lack of other long-acting options for VRE.
+The 1-hour Kimyrsa formulation is increasingly preferred operationally over the 3-hour Orbactiv. Same drug, different vehicle. Off-label use for VRE bacteraemia is increasingly reported and is the most distinctive niche for oritavancin given the lack of other long-acting options for VRE [@Corey2015; @VanHise2020].
 :::
 
 ## Oritavancin — the coagulation problem
@@ -934,11 +922,7 @@ Consequences:
 :::
 
 ::: aside
-[@Orbactiv2018]
-:::
-
-::: notes
-This is the single most important practical drug-drug interaction to remember for oritavancin. The mechanism is phospholipid-reagent interference, not actual anticoagulation. But you can't tell the difference at the bedside if you're trying to titrate heparin. Practical solution: if anticoagulation is needed concurrently, use enoxaparin (monitored by anti-Xa) or argatroban (monitored by anti-IIa).
+This is the single most important practical drug-drug interaction to remember for oritavancin. The mechanism is phospholipid-reagent interference, not actual anticoagulation. But you can't tell the difference at the bedside if you're trying to titrate heparin. Practical solution: if anticoagulation is needed concurrently, use enoxaparin (monitored by anti-Xa) or argatroban (monitored by anti-IIa) [@Orbactiv2018].
 :::
 
 ## Oritavancin in prosthetic joint infection
@@ -952,11 +936,7 @@ This is the single most important practical drug-drug interaction to remember fo
 - Antimicrobial stewardship implication: requires explicit protocol and follow-up
 
 ::: aside
-[@VanHise2020; @Antonello2023]
-:::
-
-::: notes
-PJI is one of the most challenging areas for outpatient antimicrobial therapy. Oritavancin's pharmacokinetics — single 1200 mg dose giving 10 days of meaningful exposure — fit well with surgical retention protocols, particularly DAIR (debridement, antibiotic, implant retention) where prolonged suppression is needed. Italian centres including some at Padova have published on this approach.
+PJI is one of the most challenging areas for outpatient antimicrobial therapy. Oritavancin's pharmacokinetics — single 1200 mg dose giving 10 days of meaningful exposure — fit well with surgical retention protocols, particularly DAIR (debridement, antibiotic, implant retention) where prolonged suppression is needed. Italian centres including some at Padova have published on this approach [@Orbactiv2018].
 :::
 
 ## Oritavancin — other cautions
@@ -967,11 +947,11 @@ PJI is one of the most challenging areas for outpatient antimicrobial therapy. O
 - **No dose adjustment** for renal or hepatic impairment (mild-to-moderate)
 - **Adverse events**: headache, nausea, vomiting, diarrhoea, mild ALT elevation, infusion reactions (flushing, pruritus)
 
-::: notes
+::: aside
 The CYP interactions are real but usually manageable. For most ID indications you're not concurrently dosing CYP-sensitive drugs. Where it matters: warfarin (use chromogenic or alternative anticoagulant), some antiepileptics, and some immunosuppressants.
 :::
 
-# Stewardship and practical decision-making
+# Stewardship and practical decision-making {background-color="#b20e10"}
 
 ## When to use lipoglycopeptides
 
@@ -991,7 +971,7 @@ The CYP interactions are real but usually manageable. For most ID indications yo
 - Hospital-acquired infections where source control isn't established
 - Patients with concurrent need for IV unfractionated heparin (avoid oritavancin)
 
-::: notes
+::: aside
 The cost-effectiveness story is essentially: lipoglycopeptide acquisition cost vs avoided hospital days. When hospitalisation costs are high (US, Western Europe) and OPAT infrastructure is limited, the math often favours single-dose dalbavancin or oritavancin. When ward bed costs are low and oral antibiotics are well-tolerated, the math doesn't.
 :::
 
@@ -1021,12 +1001,8 @@ The cost-effectiveness math hinges entirely on the local ward bed cost and the r
 - To date, **no large-scale resistance emergence** documented in surveillance (SENTRY, ATLAS)
 - Vigilance warranted as use expands; reporting of unusual MIC patterns essential
 
-::: aside
-[@Streit2005; @Belley2016]
-:::
-
 ::: notes
-The prolonged sub-MIC exposure issue is the elephant in the room with single-dose lipoglycopeptide therapy. Theoretically you'd worry about it; empirically we haven't seen it. The biological argument is that the drugs are still well above MIC for the relevant pathogens for the duration of meaningful exposure, but this depends on the pathogen and the site. Worth monitoring locally.
+The prolonged sub-MIC exposure issue is the elephant in the room with single-dose lipoglycopeptide therapy. Theoretically you'd worry about it; empirically we haven't seen it. The biological argument is that the drugs are still well above MIC for the relevant pathogens for the duration of meaningful exposure, but this depends on the pathogen and the site. Worth monitoring locally [@Streit2005; @Belley2016].
 :::
 
 ## Decision framework — empirical gram-positive cover
@@ -1034,7 +1010,7 @@ The prolonged sub-MIC exposure issue is the elephant in the room with single-dos
 <br>
 
 | Scenario | First-line | Lipoglycopeptide role |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | ABSSSI, inpatient, oral step-down possible | Vancomycin → oral step-down | Single-dose dalbavancin if ED discharge desired |
 | ABSSSI, ED, avoid admission | — | Single-dose dalbavancin or oritavancin |
 | MRSA bacteraemia, complicated | Vancomycin (AUC) or daptomycin | Dalbavancin for continuation (off-label) |
@@ -1044,11 +1020,11 @@ The prolonged sub-MIC exposure issue is the elephant in the room with single-dos
 | VanA VRE bacteraemia | Linezolid, daptomycin (high-dose), tigecycline | **Oritavancin** if other options exhausted |
 | C. difficile colitis | Oral vancomycin or fidaxomicin | No role |
 
-::: notes
+::: aside
 This is the decision framework I want you to take away. Lipoglycopeptides are powerful additions but they don't replace vancomycin for most serious infections. They're best thought of as solutions to specific operational problems — early discharge, poor adherence, prolonged outpatient courses, occasional resistance niches.
 :::
 
-# Cases for discussion
+# Cases for discussion {background-color="#b20e10"}
 
 ## Case 1 — MRSA bacteraemia with rising creatinine
 
@@ -1101,7 +1077,7 @@ This is the textbook indication for single-dose lipoglycopeptide therapy. Either
 All four are options. Linezolid would be my first move — oral bioavailability is 100% which simplifies transition, no renal adjustment needed, and good evidence in VRE bacteraemia. Watch for bone marrow suppression with prolonged use (\>14 days). Daptomycin works but the renal impairment limits dose escalation. Oritavancin is increasingly attractive — single dose covers the typical 2-week course, no need for repeated dosing in a patient with difficult IV access — but the aPTT issue makes anticoagulation monitoring tricky (which matters here given the dual antiplatelet on board). Tigecycline I'd avoid for bacteraemia given the FDA mortality signal.
 :::
 
-# Take-home messages
+# Take-home messages {background-color="#b20e10"}
 
 ## Five key teaching points
 
@@ -1113,10 +1089,6 @@ All four are options. Linezolid would be my first move — oral bioavailability 
 4.  **Dalbavancin / oritavancin**: single- or two-dose regimens with weeks-long half-lives — game-changing for outpatient ABSSSI and growing role in osteomyelitis/endocarditis. Cost matters.
 5.  **Oritavancin** uniquely covers **VRSA and VanA enterococci** — but its 5-day aPTT interference contraindicates concurrent IV unfractionated heparin.
 
-::: notes
-If your students walk away knowing these five things, they'll handle 95% of clinical situations correctly. The rest is detail.
-:::
-
 ## Questions to think about
 
 <br>
@@ -1125,10 +1097,6 @@ If your students walk away knowing these five things, they'll handle 95% of clin
 - Is your lab equipped to flag MIC creep or to perform PAP-AUC for suspected hVISA?
 - Does your antimicrobial stewardship programme have a protocol for single-dose dalbavancin in the ED? What patient-selection criteria would you build in?
 - For your next vancomycin patient, will you use trough-based or AUC-based dosing? What tool will you use?
-
-::: notes
-These are intentionally open. Use them to start discussion or send students away to research local data. Local prevalence and lab capabilities really do shape practice in ways that the textbook doesn't capture.
-:::
 
 ## Key references
 
@@ -1140,259 +1108,3 @@ These are intentionally open. Use them to start discussion or send students away
 - **Kalil AC et al.** Management of adults with hospital-acquired and ventilator-associated pneumonia: IDSA/ATS guidelines. *Clin Infect Dis.* 2016.
 - **Shariati A et al.** Global prevalence of vancomycin-resistant, intermediate, and heterogeneously vancomycin-intermediate *S. aureus*: systematic review and meta-analysis. *Sci Rep.* 2020.
 
-::: notes
-The companion webpage QMD has the complete reference list with full citations rendered through the diagnostic-microbiology-and-infectious-disease.csl style.
-:::
-
-## Grazie
-
-<br>
-
-Russell E. Lewis, Pharm.D. Dipartimento di Medicina Molecolare, Università degli Studi di Padova russelledward.lewis\@unipd.it
-
-::: notes
-Open the floor for questions.
-:::
-
-cin cannot bind effectively, but oritavancin can still inhibit transpeptidation through its alternative binding site. This is genuinely useful clinically — oritavancin is one of the few glycopeptide-class drugs that works against VRE. :::
-
-## Oritavancin clinical evidence
-
-<br>
-
-- **SOLO I and SOLO II** (Corey 2014, 2015): single 1200 mg dose non-inferior to twice-daily vancomycin × 7–10 days for ABSSSI
-- Approved indication: **ABSSSI** caused by susceptible gram-positive organisms
-- **Off-label uses (open-label cohorts)**:
-  - Acute osteomyelitis (Van Hise 2020 — two-year multicentre cohort, good outcomes with weekly or biweekly oritavancin)
-  - Prosthetic joint infection
-  - Bacteraemia, including VRE bacteraemia
-- Two formulations: **Orbactiv/Tenkasi** (3 h infusion) and **Kimyrsa** (1 h infusion)
-
-::: aside
-[@Corey2015; @VanHise2020]
-:::
-
-::: notes
-The 1-hour Kimyrsa formulation is increasingly preferred operationally over the 3-hour Orbactiv. Same drug, different vehicle. Off-label use for VRE bacteraemia is increasingly reported and is the most distinctive niche for oritavancin given the lack of other long-acting options for VRE.
-:::
-
-## Oritavancin in prosthetic joint infection
-
-<br>
-
-- Open-label cohorts: single- or multiple-dose oritavancin for PJI when surgical control achieved
-- Particularly attractive for staphylococcal and enterococcal PJI requiring prolonged therapy
-- One protocol: 1200 mg IV → 1200 mg in 1 week → maintenance every 4 weeks for chronic suppression
-- Evidence base: case series and small open-label cohorts; **no RCT yet**
-- Antimicrobial stewardship implication: requires explicit protocol and follow-up
-
-::: aside
-[@VanHise2020; @Antonello2023]
-:::
-
-::: notes
-PJI is one of the most challenging areas for outpatient antimicrobial therapy. Oritavancin's pharmacokinetics — single 1200 mg dose giving 10 days of meaningful exposure — fit well with surgical retention protocols, particularly DAIR (debridement, antibiotic, implant retention) where prolonged suppression is needed. Italian centres including some at Padova have published on this approach.
-:::
-
-## Oritavancin — the coagulation problem
-
-<br>
-
-::: callout-warning
-**aPTT artifactual prolongation for up to 5 days** after a single dose.
-
-Consequences:
-
-- **IV unfractionated heparin is contraindicated for 5 days** (cannot reliably monitor with aPTT)
-- For warfarin within 24 h, use chromogenic assay (not aPTT-based)
-- PT/INR also affected up to 12 h
-:::
-
-::: aside
-[@Orbactiv2018]
-:::
-
-::: notes
-This is the single most important practical drug-drug interaction to remember for oritavancin. The mechanism is phospholipid-reagent interference, not actual anticoagulation. But you can't tell the difference at the bedside if you're trying to titrate heparin. Practical solution: if anticoagulation is needed concurrently, use enoxaparin (monitored by anti-Xa) or argatroban (monitored by anti-IIa).
-:::
-
-## Oritavancin — other cautions
-
-<br>
-
-- **CYP450 interactions**: weak inhibitor (CYP2C9, CYP2C19), weak inducer (CYP3A4, CYP2D6) — monitor narrow-therapeutic-index substrates
-- **No dose adjustment** for renal or hepatic impairment (mild-to-moderate)
-- **Adverse events**: headache, nausea, vomiting, diarrhoea, mild ALT elevation, infusion reactions (flushing, pruritus)
-
-::: notes
-The CYP interactions are real but usually manageable. For most ID indications you're not concurrently dosing CYP-sensitive drugs. Where it matters: warfarin (use chromogenic or alternative anticoagulant), some antiepileptics, and some immunosuppressants.
-:::
-
-# Stewardship and practical decision-making
-
-## When to use lipoglycopeptides
-
-<br>
-
-**Strong rationale**:
-
-- ABSSSI requiring inpatient gram-positive cover but suitable for early discharge / ED treatment
-- Patients with poor adherence to oral step-down or unable to take oral
-- Difficult IV access where prolonged IV not feasible
-- VRE bacteraemia / VanA enterococcal infection — **oritavancin specifically**
-- Outpatient continuation of osteomyelitis or endocarditis therapy (off-label)
-
-**Weaker rationale (think twice)**:
-
-- Routine ABSSSI in patients who can take oral cephalexin/clindamycin/doxycycline
-- Hospital-acquired infections where source control isn't established
-- Patients with concurrent need for IV unfractionated heparin (avoid oritavancin)
-
-::: notes
-The cost-effectiveness story is essentially: lipoglycopeptide acquisition cost vs avoided hospital days. When hospitalisation costs are high (US, Western Europe) and OPAT infrastructure is limited, the math often favours single-dose dalbavancin or oritavancin. When ward bed costs are low and oral antibiotics are well-tolerated, the math doesn't.
-:::
-
-## Pharmacoeconomics — when does cost make sense?
-
-<br>
-
-- Acquisition cost: dalbavancin €1500–2500 per 1500 mg dose; oritavancin €2500–3500 per 1200 mg dose (varies by country)
-- Per-day hospital ward cost: €500–1500 in most European systems
-- **Breakeven**: \~2–3 hospital days avoided per single-dose lipoglycopeptide
-- Cost-effective when:
-  - Avoiding admission entirely for ABSSSI
-  - Discharging early from bacteraemia
-  - Replacing prolonged OPAT IV course
-- Less cost-effective when displacing inexpensive oral options
-
-::: notes
-The cost-effectiveness math hinges entirely on the local ward bed cost and the realistic counterfactual. In US settings with admission costs of \$2-5k/day, a single 1500 mg dalbavancin dose easily pays for itself if it prevents 2 admission days. In settings with cheaper beds and well-developed OPAT, the math is harder.
-:::
-
-## Resistance and surveillance concerns
-
-<br>
-
-- Long tissue persistence of dalbavancin and oritavancin → **prolonged sub-MIC exposure** in vivo
-- Theoretical concern for selection of resistance, particularly enterococci
-- To date, **no large-scale resistance emergence** documented in surveillance (SENTRY, ATLAS)
-- Vigilance warranted as use expands; reporting of unusual MIC patterns essential
-
-::: aside
-[@Streit2005; @Belley2016]
-:::
-
-::: notes
-The prolonged sub-MIC exposure issue is the elephant in the room with single-dose lipoglycopeptide therapy. Theoretically you'd worry about it; empirically we haven't seen it. The biological argument is that the drugs are still well above MIC for the relevant pathogens for the duration of meaningful exposure, but this depends on the pathogen and the site. Worth monitoring locally.
-:::
-
-## Decision framework — empirical gram-positive cover
-
-<br>
-
-| Scenario | First-line | Lipoglycopeptide role |
-|----|----|----|
-| ABSSSI, inpatient, oral step-down possible | Vancomycin → oral step-down | Single-dose dalbavancin if ED discharge desired |
-| ABSSSI, ED, avoid admission | — | Single-dose dalbavancin or oritavancin |
-| MRSA bacteraemia, complicated | Vancomycin (AUC) or daptomycin | Dalbavancin for continuation (off-label) |
-| MRSA endocarditis | Vancomycin or daptomycin (+ ceftaroline) | Investigational role |
-| HAP/VAP, MRSA | Vancomycin or linezolid | Telavancin only if alternatives unsuitable |
-| Diabetic foot osteomyelitis, MRSA | Standard regimen | Dalbavancin two-dose attractive |
-| VanA VRE bacteraemia | Linezolid, daptomycin (high-dose), tigecycline | **Oritavancin** if other options exhausted |
-| C. difficile colitis | Oral vancomycin or fidaxomicin | No role |
-
-::: notes
-This is the decision framework I want you to take away. Lipoglycopeptides are powerful additions but they don't replace vancomycin for most serious infections. They're best thought of as solutions to specific operational problems — early discharge, poor adherence, prolonged outpatient courses, occasional resistance niches.
-:::
-
-# Cases for discussion
-
-## Case 1 — MRSA bacteraemia with rising creatinine
-
-<br>
-
-55-year-old man, T2DM, admitted with right-sided infective endocarditis, MRSA bacteraemia. Day 5 of vancomycin (trough 18 mg/L, AUC 580). Creatinine has risen from 0.9 → 1.6 mg/dL. Blood cultures still positive at 96 h.
-
-**What do you do?**
-
-- Switch to daptomycin 8–10 mg/kg?
-- Add ceftaroline?
-- Continue vancomycin and accept renal injury?
-- Image to look for missed focus?
-
-::: notes
-This is a common clinical scenario. The persistent bacteraemia at 96 h is the critical signal — IDSA recommends considering alternative therapy for persistent bacteraemia ≥7 days despite adequate vancomycin exposure. The rising creatinine adds urgency to the switch. I'd recommend: (1) imaging to look for source (TEE, CT for metastatic foci), (2) switch to daptomycin 10 mg/kg, (3) consider adding ceftaroline for the synergy/seesaw effect, (4) discontinue any concomitant nephrotoxins.
-:::
-
-## Case 2 — ABSSSI in IV drug user
-
-<br>
-
-32-year-old woman, active opioid injection use, presents with extensive cellulitis of forearm at injection site. Stable, no systemic features. MRSA likely. Refusing admission, no IV access available, unreliable for outpatient appointments.
-
-**What's your antibiotic strategy?**
-
-- Standard oral cephalexin → outpatient?
-- IV vancomycin via PICC?
-- Single-dose dalbavancin 1500 mg in ED?
-- Single-dose oritavancin 1200 mg in ED?
-
-::: notes
-This is the textbook indication for single-dose lipoglycopeptide therapy. Either dalbavancin or oritavancin would be reasonable; dalbavancin is more commonly used for this and the shorter infusion (30 min vs 1-3 hr) is operationally easier in ED. Some EDs have developed structured protocols for this pathway including post-treatment follow-up by phone or community health workers. The cost-effectiveness is generally favourable when admission would otherwise be needed.
-:::
-
-## Case 3 — VanA VRE bacteraemia
-
-<br>
-
-68-year-old, post-cardiac surgery, in ICU on day 21. New fever with positive blood cultures: *E. faecium* VanA phenotype. Patient has acute kidney injury (CrCl 30 mL/min) and is on dual antiplatelet therapy.
-
-**Treatment options?**
-
-- Linezolid 600 mg q12h
-- Daptomycin 10 mg/kg (renally adjusted)
-- Oritavancin single-dose
-- Tigecycline
-
-::: notes
-All four are options. Linezolid would be my first move — oral bioavailability is 100% which simplifies transition, no renal adjustment needed, and good evidence in VRE bacteraemia. Watch for bone marrow suppression with prolonged use (\>14 days). Daptomycin works but the renal impairment limits dose escalation. Oritavancin is increasingly attractive — single dose covers the typical 2-week course, no need for repeated dosing in a patient with difficult IV access — but the aPTT issue makes anticoagulation monitoring tricky (which matters here given the dual antiplatelet on board). Tigecycline I'd avoid for bacteraemia given the FDA mortality signal.
-:::
-
-# Take-home messages
-
-## Five key teaching points
-
-<br>
-
-1.  **Vancomycin** is still the workhorse — but use **AUC-guided dosing** (400–600 mg·h/L) for serious MRSA infection. Trough-only is yesterday's standard.
-2.  **Resistance**: VanA, VanB define VRE clinical management; hVISA and VISA require an alternative agent; VRSA is rare but real.
-3.  **Teicoplanin**: **always load** (10–12 mg/kg q12h × 3–5 doses) — target troughs 15–30 (mild) or 20–40 (severe) mg/L. Lower nephrotoxicity, no US availability.
-4.  **Dalbavancin / oritavancin**: single- or two-dose regimens with weeks-long half-lives — game-changing for outpatient ABSSSI and growing role in osteomyelitis/endocarditis. Cost matters.
-5.  **Oritavancin** uniquely covers **VRSA and VanA enterococci** — but its 5-day aPTT interference contraindicates concurrent IV unfractionated heparin.
-
-::: notes
-If your students walk away knowing these five things, they'll handle 95% of clinical situations correctly. The rest is detail.
-:::
-
-## Questions to think about
-
-<br>
-
-- For your hospital, what is the local prevalence of MRSA, hVISA, VRE phenotypes? How does this change your empirical choices?
-- Is your lab equipped to flag MIC creep or to perform PAP-AUC for suspected hVISA?
-- Does your antimicrobial stewardship programme have a protocol for single-dose dalbavancin in the ED? What patient-selection criteria would you build in?
-- For your next vancomycin patient, will you use trough-based or AUC-based dosing? What tool will you use?
-
-::: notes
-These are intentionally open. Use them to start discussion or send students away to research local data. Local prevalence and lab capabilities really do shape practice in ways that the textbook doesn't capture.
-:::
-
-## Key references
-
-<br>
-
-- **Murray BE, Arias CA, Nannini EC.** Glycopeptides and lipoglycopeptides. In: *Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases*, 9th ed., 2025.
-- **Rybak MJ et al.** Therapeutic monitoring of vancomycin for serious MRSA infections: A revised consensus guideline by ASHP/IDSA/PIDS/SIDP. *Am J Health-Syst Pharm.* 2020.
-- **Liu C et al.** Clinical practice guidelines by IDSA for the treatment of MRSA infections in adults and children. *Clin Infect Dis.* 2011.
-- **Kalil AC et al.** Management of adults with hospital-acquired and ventilator-associated pneumonia: IDSA/ATS guidelines. *Clin Infect Dis.* 2016.
-- **Shariati A et al.** Global prevalence of vancomycin-resistant, intermediate, and heterogeneously vancomycin-intermediate *S. aureus*: systematic review and meta-analysis. *Sci Rep.* 2020.
