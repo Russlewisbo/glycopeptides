@@ -90,30 +90,19 @@ Glycopeptides are bactericidal but slowly so compared to beta-lactams. The AUC/M
 - **Substitution to D-Ala-D-serine** (VanC, VanE, VanG) reduces affinity \~7×
 
 ::: aside
-[@Walsh1993; @Williams1999]
-:::
-
-::: notes
-The 1000-fold affinity loss from a single hydrogen bond substitution is one of the most elegant molecular explanations in microbiology. Understanding this helps with the rest: why VanB enterococci are still teicoplanin-susceptible (no induction), why oritavancin's secondary binding site rescues activity against VanA, and why telavancin's membrane mechanism partially compensates for VISA cell-wall thickening.
+The 1000-fold affinity loss from a single hydrogen bond substitution is one of the most elegant molecular explanations in microbiology. Understanding this helps with the rest: why VanB enterococci are still teicoplanin-susceptible (no induction), why oritavancin's secondary binding site rescues activity against VanA, and why telavancin's membrane mechanism partially compensates for VISA cell-wall thickening [@Walsh1993; @Williams1999].
 :::
 
 ## Why lipoglycopeptides act differently
 
-<br>
-
-The added **lipid tail** in telavancin, dalbavancin, and oritavancin produces two additional effects beyond D-Ala-D-Ala binding:
-
-- **Membrane anchoring** → depolarisation, increased permeability (most pronounced with telavancin and oritavancin)
-- **Dimerisation enhancement** → higher avidity for target
-
-**Net result:** faster bactericidal kinetics, activity against some VISA/hVISA strains, and (for oritavancin) activity against VanA enterococci.
+![](glycopeptides-images/lipd_tail.png){fig-align="center" width="1000"}
 
 ::: aside
-[@Higgins2005; @Lunde2009]
+**Net result:** faster bactericidal kinetics, activity against some VISA/hVISA strains, and (for oritavancin) activity against VanA enterococci.
 :::
 
-::: notes
-The "dual mechanism" of telavancin and the "triple mechanism" of oritavancin are often presented in marketing materials. The clinically relevant consequences are: (1) preserved or enhanced activity against organisms with reduced vancomycin susceptibility, (2) faster kill in vitro and in vivo, and (3) for oritavancin specifically, retained activity against VanA enterococci because of the secondary peptidoglycan binding site.
+::: aside
+The "dual mechanism" of telavancin and the "triple mechanism" of oritavancin are often presented in marketing materials. The clinically relevant consequences are: (1) preserved or enhanced activity against organisms with reduced vancomycin susceptibility, (2) faster kill in vitro and in vivo, and (3) for oritavancin specifically, retained activity against VanA enterococci because of the secondary peptidoglycan binding site[@Higgins2005; @Lunde2009].
 :::
 
 # Vancomycin {background-color="#b20e10"}
@@ -186,7 +175,7 @@ Remember that vancomycin is bacteriostatic against enterococci, not bactericidal
 → Limitations underlie use of **adjunctive** intraventricular, intraperitoneal, intravitreal routes.
 
 ::: aside
-This penetration table is worth memorising. The bone and CSF penetration limitations explain why we often need high-dose vancomycin for osteomyelitis or meningitis, and why intraventricular vancomycin is needed for shunt infections despite adequate IV dosing. Lung ELF penetration is the often-cited disadvantage vs linezolid for MRSA pneumonia [@Boselli2005].
+The bone and CSF penetration limitations explain why we often need high-dose vancomycin for osteomyelitis or meningitis, and why intraventricular vancomycin is needed for shunt infections despite adequate IV dosing. Lung ELF penetration is the often-cited disadvantage vs linezolid for MRSA pneumonia [@Boselli2005].
 :::
 
 # Vancomycin resistance — VRE {background-color="#b20e10"}
@@ -207,6 +196,12 @@ This penetration table is worth memorising. The bone and CSF penetration limitat
 ::: notes
 Russ — for the Italian audience, EARS-Net data show Italy at the higher end of European VRE prevalence, around 20-30% for E. faecium bacteraemia. This is relevant for empirical decisions in nosocomial endocarditis and CLABSI.
 :::
+
+## EARS-Net data <br> Vancomycin-resistant Enterococci in Europe
+
+<br>
+
+![](glycopeptides-images/EARS-net.png){fig-align="center"}
 
 ## VRE mechanisms — the *van* gene clusters
 
@@ -276,19 +271,10 @@ The pooled global hVISA prevalence of \~6% is a reasonable working number, thoug
 
 ## VISA mechanism — the "clogging" model
 
-<br>
-
-- Selection under vancomycin exposure → mutations in **two-component regulatory systems**: GraSR, WalKR/YycFG, VraTSR
-- These regulate cell-wall biosynthesis genes → **thickened cell wall with abundant free D-Ala-D-Ala residues**
-- Free D-Ala-D-Ala in the cell wall periphery "traps" vancomycin before it reaches active synthesis sites at the membrane
-- Effect: **functional resistance** despite no change in target affinity
+![](glycopeptides-images/clogging.png){fig-align="center" width="800"}
 
 ::: aside
-[@Hiramatsu2001; @Howden2010]
-:::
-
-::: notes
-Conceptually elegant — the bug doesn't change its target, it builds extra target to soak up the drug. Same therapeutic implication: more vancomycin is unlikely to overcome it, so switch agents. Linezolid, daptomycin (with caveats for cross-resistance), ceftaroline, or one of the lipoglycopeptides are alternatives.
+Conceptually elegant — the bug doesn't change its target, it builds extra target to soak up the drug. Same therapeutic implication: more vancomycin is unlikely to overcome it, so switch agents. Linezolid, daptomycin (with caveats for cross-resistance), ceftaroline, or one of the lipoglycopeptides are alternatives [@Hiramatsu2001; @Howden2010].
 :::
 
 ## VRSA — the rare event
@@ -301,11 +287,7 @@ Conceptually elegant — the bug doesn't change its target, it builds extra targ
 - Most isolates: high-level resistance (MIC ≥32 μg/mL) but **susceptible to linezolid, daptomycin, ceftaroline, oritavancin**
 
 ::: aside
-[@CDC2023; @Sievert2008]
-:::
-
-::: notes
-VRSA is rare enough that you may never see a case, but you should recognise the risk factor — chronic wounds with concomitant MRSA and VRE colonisation in patients on prolonged vancomycin. The clinical implication is straightforward: treatment options exist but require active resistance testing.
+VRSA is rare enough that you may never see a case, but you should recognise the risk factor — chronic wounds with concomitant MRSA and VRE colonisation in patients on prolonged vancomycin. The clinical implication is straightforward: treatment options exist but require active resistance testing [@CDC2023; @Sievert2008].
 :::
 
 ## MIC "creep" and clinical failure
@@ -324,7 +306,7 @@ VRSA is rare enough that you may never see a case, but you should recognise the 
 The "MIC creep" literature is contested — some surveillance data show no systematic upward shift in vancomycin MICs over time. What's not contested is that within the susceptible range, higher MICs are associated with worse outcomes. The interpretation that's most defensible: at MIC 2, vancomycin is on the edge of doing what we need, particularly for high-inoculum infections like endocarditis or deep bone. Switch to daptomycin or another agent if the patient isn't responding.
 :::
 
-# Vancomycin PK/PD
+# Vancomycin PK/PD {background-color="#b20e10"}
 
 ## Pharmacodynamic target: AUC/MIC ≥ 400
 
@@ -332,32 +314,20 @@ The "MIC creep" literature is contested — some surveillance data show no syste
 
 - *In vivo* and clinical data: **AUC₂₄ / MIC ≥ 400** correlates with clinical response and microbiologic eradication in MRSA
 - AUC \> 600 mg·h/L correlates with **nephrotoxicity**
-- Therapeutic window for serious MRSA: **AUC 400–600**
+- Therapeutic window for serious MRSA infections: **AUC 400–600**
 
 ::: aside
-[@MoiseBroder2004b; @Lodise2020]
-:::
-
-::: notes
-The AUC/MIC target of 400 is derived from a relatively small clinical cohort by Moise-Broder in 2004 — well-cited but with limitations. The upper bound of 600 is even less settled and comes mostly from retrospective AKI signals. The 400-600 window is a reasonable working range but we shouldn't over-interpret the precision.
+The AUC/MIC target of 400 is derived from a relatively small clinical cohort by Moise-Broder in 2004 — well-cited but with limitations. The upper bound of 600 is even less settled and comes mostly from retrospective AKI signals. The 400-600 window is a reasonable working range but we shouldn't over-interpret the precision [@MoiseBroder2004b; @Lodise2020] .
 :::
 
 ## Why trough monitoring isn't enough
 
+![](glycopeptides-images/vanco_TDM.png){fig-align="center" width="800"}
+
 <br>
 
-- Old paradigm: target trough 15–20 mg/L for serious MRSA
-- Surrogate logic: troughs at this level *should* produce AUC/MIC ≥ 400
-- **Problem**: the trough-to-AUC relationship is highly variable
-- Patients achieving "therapeutic" troughs of 15–20 often have AUC \> 600 → AKI risk
-- Bayesian AUC monitoring with two timed levels (or even one) outperforms trough-based dosing in achieving target exposure
-
 ::: aside
-[@Lodise2020; @Rybak2020]
-:::
-
-::: notes
-This is the single most important practical update from the last few years. If you're still managing serious MRSA infections with trough-only monitoring, you're behind the times. Bayesian software like InsightRx, DoseMe, or PrecisePK is increasingly available; the alternative is two-level first-order equations. The evidence base for AUC monitoring is still mostly retrospective — large prospective trials are ongoing — but the pharmacokinetic logic is sound.
+Bayesian software like InsightRx, DoseMe, or PrecisePK is increasingly available; the alternative is two-level first-order equations. The evidence base for AUC monitoring is still mostly retrospective — large prospective trials are ongoing — but the pharmacokinetic logic is sound [@Lodise2020; @Rybak2020].
 :::
 
 ## 2020 ASHP/IDSA/PIDS/SIDP guidelines — key points
@@ -434,11 +404,18 @@ Continuous infusion deserves a mention — meta-analyses consistently show less 
 Intraventricular vancomycin is something every ID consultant should be comfortable advising on. Doses are tiny relative to systemic. Watch for the rare reports of hemorrhagic occlusive retinal vasculitis with intracameral vancomycin prophylaxis after cataract surgery — there's been a push to abandon that practice for that reason.
 :::
 
-# Vancomycin adverse effects
+# Vancomycin adverse effects {background-color="#b20e10"}
 
-## Red-neck (red-man) syndrome
+## Vancomycin infusion (red-man) syndrome
 
-<br>
+<br> <br>
+
+::::: columns
+::: {.column width="50%"}
+![](glycopeptides-images/redman.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
 
 - Rapid erythematous flushing of head, face, neck, upper trunk during infusion
 - Often with pruritus, occasionally hypotension/angioedema
@@ -446,9 +423,11 @@ Intraventricular vancomycin is something every ID consultant should be comfortab
 - Incidence 3.4–14% (higher in children, 14%)
 - Risk factors: faster infusion rate, higher concentration, concurrent opioids/anaesthetics
 - Management: stop infusion, antihistamine, restart at half rate (\<10 mg/min)
+:::
+:::::
 
-::: notes
-Common exam question and common clinical scenario. Key teaching point: this is not an allergy, it's a pseudoallergic reaction. Patients can usually continue vancomycin with slower infusion and antihistamine premedication. True IgE-mediated anaphylaxis to vancomycin is exceedingly rare.
+::: aside
+Common exam question and common clinical scenario. Thisis not an allergy, it's a pseudoallergic reaction. Patients can usually continue vancomycin with slower infusion and antihistamine premedication. True IgE-mediated anaphylaxis to vancomycin is exceedingly rare [@ramakumar2021].
 :::
 
 ## Nephrotoxicity
@@ -458,18 +437,15 @@ Common exam question and common clinical scenario. Key teaching point: this is n
 **Risk factors** (additive):
 
 - AUC \> 650 mg·h/L (≈ trough ≥ 15 mg/L)
-- Concomitant nephrotoxins, especially **piperacillin-tazobactam**
+- Concomitant nephrotoxins, possibly **piperacillin-tazobactam**
 - Duration \>14 days
 - Pre-existing renal disease, advanced age, obesity, sepsis, hypovolaemia
 
 **Mechanisms**: oxidative tubular injury, immune-mediated interstitial nephritis, intratubular cast obstruction
 
-::: aside
-[@Hidayat2006; @Lodise2020]
-:::
 
-::: notes
-The vancomycin + piperacillin-tazobactam AKI signal is one of the more discussed associations of the past decade. The risk is amplified when these two drugs are combined relative to either alone or vancomycin combined with cefepime or a carbapenem. Mechanism is still debated — some argue it's a tubular casting artefact rather than true injury, but functional creatinine rises do happen. Where feasible, consider alternatives or limit duration.
+::: aside
+The vancomycin + piperacillin-tazobactam AKI signal is one of the more discussed associations of the past decade. The risk is amplified when these two drugs are combined relative to either alone or vancomycin combined with cefepime or a carbapenem. Mechanism is still debated — some argue it's a tubular casting artefact rather than true injury, but functional creatinine rises do happen. Where feasible, consider alternatives or limit duration [@Hidayat2006; @Lodise2020].
 :::
 
 ## Other adverse effects
