@@ -59,7 +59,7 @@ By the end of this lecture, you should be able to:
 <br>
 
 |   | Vancomycin | Teicoplanin | Telavancin | Dalbavancin | Oritavancin |
-|------------|------------|------------|------------|------------|------------|
+|----|----|----|----|----|----|
 | **Class** | Glycopeptide | Glycopeptide | Lipoglycopeptide | Lipoglycopeptide | Lipoglycopeptide |
 | **Year approved** | 1958 | 1988 (EU) | 2009 | 2014 | 2014 |
 | **Half-life** | 6–12 h | 70–100 h | \~8 h | \~346 h | \~245 h |
@@ -158,7 +158,7 @@ Remember that vancomycin is bacteriostatic against enterococci, not bactericidal
 <br>
 
 | Tissue | Penetration | Notes |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Lung epithelial lining fluid | \~20% serum | Lower than linezolid (\~415%) |
 | Bone | \~10–30% | Variable; consider higher doses |
 | CSF (inflamed meninges) | 7–21% | Inadequate without inflammation |
@@ -251,7 +251,7 @@ Mostly a microbiology curiosity but worth knowing — VDE strains can be missed 
 <br>
 
 | Strain | MIC | Mechanism | Frequency |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Susceptible** | ≤2 μg/mL | Wild type | Majority of *S. aureus* |
 | **hVISA** | ≤2 (population); 4–8 (subpopulation) | Cell wall thickening; TCS mutations (GraSR, WalKR, VraTSR) | \~6% global pooled prevalence |
 | **VISA** | 4–8 μg/mL | Same as hVISA, more pronounced | \<0.5% globally |
@@ -367,7 +367,7 @@ The obesity dosing question comes up a lot. The current consensus is to dose by 
 <br>
 
 | Population | Recommended dose | Comment |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Adult, normal renal function | 15–20 mg/kg q8–12 h | Use actual body weight |
 | Severe sepsis / endocarditis / meningitis | Loading 25–30 mg/kg → 15–20 mg/kg q8–12 h | Loading ≤500 mg/h |
 | Continuous infusion | 30–40 mg/kg/day after 15 mg/kg loading | Lower AKI; equivalent efficacy |
@@ -531,11 +531,7 @@ Necrotising MRSA pneumonia is the scenario where the toxin-suppression argument 
 - **Investigational**: oritavancin or dalbavancin for off-label bacteraemia / endocarditis continuation
 
 ::: aside
-[@Geriak2019]
-:::
-
-::: aside
-The dapto + ceftaroline combination has become standard rescue therapy in many academic centres for persistent MRSA bacteraemia, based on the 2019 Geriak RCT (small but suggestive of survival benefit). The seesaw effect — daptomycin susceptibility *improves* with concomitant β-lactam exposure — is the molecular rationale. For most patients, switching from vancomycin to high-dose daptomycin alone is the simpler first move.
+The dapto + ceftaroline combination has become standard rescue therapy in many academic centres for persistent MRSA bacteraemia, based on the 2019 Geriak RCT (small but suggestive of survival benefit). The seesaw effect — daptomycin susceptibility *improves* with concomitant β-lactam exposure — is the molecular rationale. For most patients, switching from vancomycin to high-dose daptomycin alone is the simpler first move [@Geriak2019].
 :::
 
 ## VRE bacteraemia — treatment choices
@@ -543,7 +539,7 @@ The dapto + ceftaroline combination has become standard rescue therapy in many a
 <br>
 
 | Agent | Pros | Cons |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Linezolid** 600 mg q12h | Oral option; effective; widely available | Bone marrow suppression with prolonged use; serotonin syndrome with SSRIs |
 | **Daptomycin** ≥10 mg/kg | Bactericidal; once-daily | High doses needed; resistance emergence reported |
 | **Tigecycline** | Activity vs VRE | Low serum levels; FDA mortality signal |
@@ -611,7 +607,7 @@ The half-life advantage and possibly lower nephrotoxicity make teicoplanin attra
 <br>
 
 | Indication | Target trough (mg/L) | Loading regimen |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Uncomplicated MRSA / soft tissue | 15–30 | 10 mg/kg q12h × 5 doses OR 12 mg/kg q12h × 3 doses |
 | Complicated / serious MRSA (endocarditis, bone) | 20–40 | 12 mg/kg q12h × 5 doses |
 | Non-MRSA, less serious | — | 6 mg/kg q12h × 3 doses |
@@ -672,7 +668,7 @@ The 2009 Svetitsky meta-analysis is the standard reference on nephrotoxicity com
 <br>
 
 |   | Telavancin | Dalbavancin | Oritavancin |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | **Parent compound** | Vancomycin | A40926 (teicoplanin-like) | Chloroeremomycin (vancomycin analog) |
 | **t½** | \~8 h | \~346 h (\~14 d) | \~245 h (\~10 d) |
 | **Dosing** | 10 mg/kg q24h | 1000 mg + 500 mg/wk OR 1500 mg × 1 | 1200 mg × 1 |
@@ -713,12 +709,8 @@ The dual mechanism is the marketing pitch. Clinically, the lower MIC and faster 
 
 Plus: **coagulation assay interference** — PT, aPTT, INR, ACT spuriously prolonged. Draw before next dose for accurate result.
 
-::: aside
-[@Stryjewski2008; @Vibativ2009]
-:::
-
 ::: notes
-Three boxed warnings is a lot, and they have substantially limited uptake. Telavancin sits in a difficult niche — clinically useful in selected patients but with enough red flags that most clinicians reach for alternatives unless nothing else works. The renal signal in the ATTAIN trials, particularly the mortality difference in the subgroup with baseline CrCl \<50, was the most concerning finding.
+Three boxed warnings is a lot, and they have substantially limited uptake. Telavancin sits in a difficult niche — clinically useful in selected patients but with enough red flags that most clinicians reach for alternatives unless nothing else works. The renal signal in the ATTAIN trials, particularly the mortality difference in the subgroup with baseline CrCl \<50, was the most concerning finding [@Stryjewski2008; @Vibativ2009].
 :::
 
 ## Telavancin clinical evidence
@@ -730,11 +722,7 @@ Three boxed warnings is a lot, and they have substantially limited uptake. Telav
 - **Approved indications (US)**: cSSSI, HAP/VAP caused by *S. aureus* when alternatives are inappropriate
 
 ::: aside
-[@Stryjewski2008; @Rubinstein2011]
-:::
-
-::: notes
-The HAP/VAP indication came with the caveat — "when alternative treatments are not suitable" — because of the mortality signal in renal-impaired patients. This is a typical FDA pattern when efficacy is there but safety is wobbly.
+The HAP/VAP indication came with the caveat — "when alternative treatments are not suitable" — because of the mortality signal in renal-impaired patients. This is a typical FDA pattern when efficacy is there but safety is wobbly [@Stryjewski2008; @Rubinstein2011].
 :::
 
 # Dalbavancin {background-color="#b20e10"}
@@ -744,12 +732,12 @@ The HAP/VAP indication came with the caveat — "when alternative treatments are
 <br>
 
 - Parent: A40926 (teicoplanin-like glycopeptide), modified with lipophilic side chain
-- t½ \~346 hours (\~14 days); \~33% of drug still in plasma at 14 days
+- **t½ \~346 hours (\~14 days)**; **\~33% of drug still in plasma at 14 days**
 - Binds D-Ala-D-Ala with enhanced dimerisation
 - Activity: MRSA, MSSA, CoNS, streptococci, vancomycin-susceptible enterococci
 - Activity reduced against VISA; **inactive** against VRSA, VanA enterococci
 
-::: notes
+::: aside
 The half-life is the headline. Two-dose or single-dose treatment that delivers a full course on day 1 — the clinical operational implications are huge for outpatient management of skin infections [@Boucher2014].
 :::
 
@@ -767,10 +755,99 @@ The half-life is the headline. Two-dose or single-dose treatment that delivers a
 DISCOVER trials established ABSSSI indication. The single-dose 1500 mg regimen (Dunne 2016) is increasingly preferred for operational simplicity. Off-label use in osteomyelitis and infective endocarditis is growing fast — particularly in IV drug users and other populations where adherence to prolonged IV therapy is challenging [@Boucher2014; @Dunne2016; @Rappo2018; @Turner2025] .
 :::
 
-## DOTS- Pharmacokinetic data
+## DOTS — Pharmacokinetic data
+
+<br>
+
+**Population PK model** (n = 97, 640 samples): 3-compartment, zero-order input, first-order elimination
+
+| Parameter      | Estimate  | 95% CI      | IIV (CV%) |
+|----------------|-----------|-------------|-----------|
+| CL             | 0.066 L/h | 0.062–0.069 | 22.6%     |
+| V~1~ (central) | 5.67 L    | 5.37–5.99   | 19.7%     |
+
+<br>
+
+- **Protein binding \>99%** in 92.3% of paired samples — substantially higher than previously estimated (\~93%)
+- Unbound concentrations linked to total via power function: C~U~(t) = A × C~T~(t)^K^
 
 ::: aside
-[@lodise2026]
+Secondary PK analysis of the DOTS RCT. Unbound concentrations measured by ultracentrifugation with Tween-80 presaturated plasticware, avoiding radiolabeled equilibrium dialysis artifacts. Key methodological point: prior estimates of \~93% protein binding came from radiolabeled equilibrium dialysis, which cannot reliably quantify binding beyond the radiochemical purity of the labeled compound (typically 97–99%). The ultracentrifugation method used here avoids membrane binding artifacts and nonspecific adsorption, yielding the \>99% figure. This has important implications for PK/PD target interpretation. [@lodise2026].
+:::
+
+## DOTS PK — covariate effects on disposition
+
+<br>
+
+| Covariate            | Parameter affected | Exponent | 95% CI         |
+|----------------------|--------------------|----------|----------------|
+| Creatinine clearance | CL ↑               | 0.21     | 0.16–0.30      |
+| Body weight          | V~1~ ↑             | 0.57     | 0.37–0.86      |
+| Body weight          | V~2~ ↑             | 0.82     | 0.37–1.46      |
+| Body weight          | V~3~ ↑             | 0.56     | 0.30–0.82      |
+| Albumin              | V~2~ ↓             | −0.81    | −1.79 to −0.32 |
+| Albumin              | f~u~ scaling ↓     | −0.78    | −0.98 to −0.54 |
+| Age                  | V~3~ ↑             | 0.63     | 0.44–0.83      |
+
+All covariates entered as power functions on the respective parameter.
+
+::: aside
+Albumin was the primary determinant of variability in fraction unbound — not renal function. Hypoalbuminaemia was common in the DOTS cohort (mean albumin 2.8 g/dL), allowing evaluation across a clinically relevant range [@lodise2026].
+:::
+
+## DOTS PK — exposure–response: day 22 concentration
+
+<br>
+
+- Among 93 evaluable patients, **72 (77.4%) achieved clinical success at day 70**
+- **Total day 22 concentration \>32 µg/mL** identified as optimal cut point:
+
+|                         | n   | Clinical success |                 |
+|-------------------------|-----|------------------|-----------------|
+| C~22~ \>32 µg/mL        | 30  | 29 (96.7%)       |                 |
+| C~22~ ≤32 µg/mL         | 63  | 43 (68.3%)       |                 |
+| **Adjusted difference** |     | **25.3 pp**      | 95% CI 3.5–47.0 |
+
+- No increase in serious adverse events in the higher-exposure group (26.7% vs 42.9%; difference −16.2 pp, 95% CI −36.2 to 3.8)
+- Effect consistent across subgroups: MRSA/MSSA, bacteraemia duration, deep-seated infection
+
+::: aside
+Mean (SD) total day 22 concentration in the two 1500 mg dose group: 29.0 (10.6) µg/mL — i.e. the majority of patients fall *below* the 32 µg/mL threshold. Important caveats: exposure was not randomized, so residual confounding cannot be excluded. The 32 µg/mL threshold was empirically derived from clinical outcome modelling, not from prespecified microbiologic breakpoints. The 9 participants with indeterminate day 70 outcomes (classified as failures) all had concentrations ≤32 µg/mL, which could introduce bias — though tipping point and IPW analyses showed minimal changes in absolute risk differences [@lodise2026].
+:::
+
+## DOTS PK — unbound exposure and late complications
+
+<br>
+
+- **73% of unbound samples below quantification by day 42**; 98% by day 70
+- All infectious complications occurred **after day 40** — temporally coinciding with declining unbound exposure
+- Unbound exposure–response associations were **attenuated** compared with total concentrations
+  - Narrow dynamic range of unbound concentrations (protein binding \>99%)
+  - Many later samples near the lower limit of quantification (0.05 µg/mL)
+
+**Clinical implication**: total day 22 concentration is a more practical and stable surrogate for sustained systemic exposure in this population
+
+::: aside
+Causality between declining unbound concentrations and late infectious complications cannot be inferred from these data [@lodise2026].
+:::
+
+## DOTS PK — implications for TDM and dosing
+
+<br>
+
+- **Most patients receiving two 1500 mg doses do not achieve day 22 concentrations \>32 µg/mL**
+  - Mean day 22 concentration: 29.0 µg/mL; only 32.3% were above the threshold
+- Patients *below* the threshold still had success rates numerically comparable to standard IV therapy
+- **However**: exploratory data suggest some patients may benefit from a **third dose** between days 22–40
+  - Guided by low day 22 concentration (TDM approach)
+  - Or applied empirically in patients at risk for lower exposure (high weight, high CrCl, low albumin)
+
+::: callout-important
+The 32 µg/mL threshold requires **external validation** before clinical application. These findings are hypothesis-generating.
+:::
+
+::: aside
+This is an important nuance — the parent DOTS trial showed noninferiority of the 2-dose regimen vs standard therapy overall. The PK analysis suggests a subset of patients may benefit from more sustained exposure, but this needs prospective evaluation. The practical question is whether therapeutic drug monitoring of dalbavancin (measuring a day 22 trough) could identify patients who would benefit from an additional dose. This is a different paradigm from vancomycin TDM — **here you're not adjusting a continuous infusion but deciding whether to give an additional fixed dose weeks into therapy**[@lodise2026].
 :::
 
 ## Dalbavancin in people who inject drugs (PWID)
@@ -785,11 +862,7 @@ DISCOVER trials established ABSSSI indication. The single-dose 1500 mg regimen (
 - Dedicated left-sided or prosthetic valve endocarditis RCT data remain absent; further trials needed
 
 ::: aside
-[@Bork2019; @Wunsch2019; @Turner2025]
-:::
-
-::: notes
-This is one of the most discussed off-label applications of dalbavancin. The clinical reasoning is straightforward — these patients are at high risk for line infections, often leave AMA, and can't reliably complete a 4-6 week IV course. The DOTS trial (Turner 2025) is the first RCT to provide data covering this population, including right-sided endocarditis, and showed dalbavancin to be noninferior to standard therapy. Left-sided and prosthetic valve endocarditis remain entirely observational.
+The clinical reasoning is straightforward — these patients are at high risk for line infections, often leave AMA, and can't reliably complete a 4-6 week IV course. The DOTS trial (Turner 2025) is the first RCT to provide data covering this population, including right-sided endocarditis, and showed dalbavancin to be noninferior to standard therapy. Left-sided and prosthetic valve endocarditis remain entirely observational.[@Bork2019; @Wunsch2019; @Turner2025]
 :::
 
 ## Dalbavancin — practical use
@@ -808,7 +881,7 @@ This is one of the most discussed off-label applications of dalbavancin. The cli
 The growing off-label use of dalbavancin for endocarditis and prosthetic joint infection — often as continuation therapy after initial control with a different agent — reflects practical pressure to avoid prolonged IV access. Two large RCTs are testing this systematically.
 :::
 
-# Oritavancin
+# Oritavancin {background-color="#b20e10"}
 
 ## Oritavancin — the triple-mechanism agent
 
@@ -823,11 +896,7 @@ The growing off-label use of dalbavancin for endocarditis and prosthetic joint i
 - → **Active against VanA enterococci and VRSA** (unique in the class)
 
 ::: aside
-[@Allen2003]
-:::
-
-::: notes
-The secondary binding site is what gives oritavancin its activity against VanA. The cell-wall precursors of VanA enterococci end in D-Ala-D-lactate, which vancomycin cannot bind effectively, but oritavancin can still inhibit transpeptidation through its alternative binding site. This is genuinely useful clinically — oritavancin is one of the few glycopeptide-class drugs that works against VRE.
+The secondary binding site is what gives oritavancin its activity against VanA. The cell-wall precursors of VanA enterococci end in D-Ala-D-lactate, which vancomycin cannot bind effectively, **but oritavancin can still inhibit transpeptidation through its alternative binding site.** This is genuinely useful clinically — oritavancin is one of the few glycopeptide-class drugs that works against VRE.[@Allen2003]
 :::
 
 ## Oritavancin clinical evidence
@@ -965,7 +1034,7 @@ The prolonged sub-MIC exposure issue is the elephant in the room with single-dos
 <br>
 
 | Scenario | First-line | Lipoglycopeptide role |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | ABSSSI, inpatient, oral step-down possible | Vancomycin → oral step-down | Single-dose dalbavancin if ED discharge desired |
 | ABSSSI, ED, avoid admission | — | Single-dose dalbavancin or oritavancin |
 | MRSA bacteraemia, complicated | Vancomycin (AUC) or daptomycin | Dalbavancin for continuation (off-label) |
@@ -1222,7 +1291,7 @@ The prolonged sub-MIC exposure issue is the elephant in the room with single-dos
 <br>
 
 | Scenario | First-line | Lipoglycopeptide role |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | ABSSSI, inpatient, oral step-down possible | Vancomycin → oral step-down | Single-dose dalbavancin if ED discharge desired |
 | ABSSSI, ED, avoid admission | — | Single-dose dalbavancin or oritavancin |
 | MRSA bacteraemia, complicated | Vancomycin (AUC) or daptomycin | Dalbavancin for continuation (off-label) |
