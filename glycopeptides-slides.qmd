@@ -1108,3 +1108,4 @@ All four are options. Linezolid would be my first move — oral bioavailability 
 - **Kalil AC et al.** Management of adults with hospital-acquired and ventilator-associated pneumonia: IDSA/ATS guidelines. *Clin Infect Dis.* 2016.
 - **Shariati A et al.** Global prevalence of vancomycin-resistant, intermediate, and heterogeneously vancomycin-intermediate *S. aureus*: systematic review and meta-analysis. *Sci Rep.* 2020.
 
+## References
