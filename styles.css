@@ -1,0 +1,4 @@
+/* Add vertical space between references */
+#refs .csl-entry {
+  margin-bottom: 1em;
+}
