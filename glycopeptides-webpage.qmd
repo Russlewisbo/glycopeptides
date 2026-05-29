@@ -40,13 +40,19 @@ Vancomycin, the first glycopeptide antibiotic developed for clinical use, was is
 
 Since the 1980s vancomycin use has risen steadily — from approximately 2,000 kg/year in 1984 to over 11,200 kg/year in 1996 in the United States alone, paralleled in many other regions [@Kirst1998; @Lipsky1999; @Fraser2005].
 
+![Early vancomycin preparations were known as "Mississippi mud" for the colour imparted by impurities — a history that anchored the drug's early reputation for toxicity.](glycopeptides-images/mud.png){#fig-mud width="40%"}
+
 ## Chemistry
 
-Vancomycin is a tricyclic glycopeptide of molecular weight \~1,449 Da consisting of a heptapeptide core with two attached sugars (vancosamine and glucose). The peptide backbone binds the terminal D-alanyl-D-alanine of nascent peptidoglycan via five hydrogen bonds, providing the high-affinity binding that defines class activity.
+Vancomycin is a tricyclic glycopeptide of molecular weight \~1,449 Da consisting of a heptapeptide core with two attached sugars (vancosamine and glucose). The peptide backbone binds the terminal D-alanyl-D-alanine of nascent peptidoglycan via five hydrogen bonds, providing the high-affinity binding that defines class activity — but also its weakness, since a single mutation in the target can eliminate activity.
+
+![Chemical structure of vancomycin.](glycopeptides-images/vancomycin.png){#fig-vancomycin width="50%"}
 
 ## Mechanism of Action
 
-Vancomycin inhibits the late stages of cell-wall biosynthesis in dividing gram-positive organisms by complexing with the D-Ala-D-Ala C-terminus of peptidoglycan precursors, blocking both transglycosylation and transpeptidation. The drug does not penetrate the outer membrane of gram-negative organisms, accounting for its narrow spectrum.
+![Mechanism of action of glycopeptides: binding to D-Ala-D-Ala inhibits transglycosylation and transpeptidation.](glycopeptides-images/MOA.png){#fig-moa}
+
+Vancomycin inhibits the late stages of cell-wall biosynthesis in dividing gram-positive organisms by complexing with the D-Ala-D-Ala C-terminus of peptidoglycan precursors, blocking both transglycosylation and transpeptidation (@fig-moa). The drug does not penetrate the outer membrane of gram-negative organisms, accounting for its narrow spectrum. Glycopeptides are bactericidal but slowly so compared to β-lactams; the AUC/MIC index reflects this — duration of exposure matters more than peak concentration [@Reynolds1989].
 
 ## Antimicrobial Activity and Spectrum
 
@@ -56,17 +62,29 @@ Vancomycin is bactericidal against most gram-positive organisms, including *Stap
 
 ### Vancomycin-Resistant Enterococci (VRE)
 
-Glycopeptide resistance in enterococci is mediated by *van* gene clusters that replace the terminal D-Ala-D-Ala of peptidoglycan precursors with D-Ala-D-lactate (VanA, VanB, VanD, VanM phenotypes — high-level resistance to vancomycin; VanB additionally retains teicoplanin susceptibility) or with D-Ala-D-serine (VanC, VanE, VanG, VanL, VanN — low-level resistance) [@Ahmed2018; @Guffey2021]. VanA and VanB phenotypes dominate clinically, most commonly in *Enterococcus faecium* [@GallowayPena2012; @Contreras2021]. Surveillance data from the United States (NHSN), Europe (EARS-Net), and Latin America confirm continued global circulation and increasing prevalence in many regions [@Weiner2011; @ECDC2020].
+Glycopeptide resistance in enterococci is mediated by *van* gene clusters that replace the terminal D-Ala-D-Ala of peptidoglycan precursors with D-Ala-D-lactate (VanA, VanB, VanD, VanM phenotypes — high-level resistance to vancomycin; VanB additionally retains teicoplanin susceptibility) or with D-Ala-D-serine (VanC, VanE, VanG, VanL, VanN — low-level resistance) [@Ahmed2018; @Guffey2021]. The 1000-fold affinity loss from D-Ala-D-lactate substitution — the removal of a single hydrogen bond from five — is one of the most elegant molecular explanations in microbiology [@Walsh1993; @Williams1999]. VanA and VanB phenotypes dominate clinically, most commonly in *Enterococcus faecium* [@GallowayPena2012; @Contreras2021]. Surveillance data from the United States (NHSN), Europe (EARS-Net), and Latin America confirm continued global circulation and increasing prevalence in many regions (@fig-earsnet) [@Weiner2011; @ECDC2020].
+
+![EARS-Net surveillance data: vancomycin-resistant *Enterococcus faecium* prevalence across Europe shows enormous regional variation — from \<1% in Nordic countries to \>50% in some Eastern European countries.](glycopeptides-images/EARS-net.png){#fig-earsnet}
+
+VanB is the phenotype to remember clinically: vancomycin-resistant but teicoplanin-susceptible, because the VanB regulatory system does not induce expression in response to teicoplanin. In regions with predominantly VanB phenotype, teicoplanin remains useful for enterococcal infections.
+
+### Vancomycin-Dependent Enterococci (VDE)
+
+Rarely, enterococci that **require vancomycin to grow** have been described (@fig-vde). The mechanism involves loss of the endogenous D-Ala-D-Ala ligase, leaving the organism entirely reliant on the vancomycin-induced D-Ala-D-Lac ligase. VDE strains are undetectable on routine media without vancomycin and can revert to vancomycin-independent growth. Though mostly a microbiological curiosity, VDE should be considered when growth occurs only on vancomycin-containing media.
+
+![Vancomycin-dependent enterococci: growth only in the presence of vancomycin.](glycopeptides-images/vde.png){#fig-vde width="30%"}
 
 ### Reduced Vancomycin Susceptibility in *S. aureus*
 
 The first MRSA isolate with reduced vancomycin susceptibility was reported by Hiramatsu in 1997 [@Hiramatsu1997]. The CLSI breakpoints were lowered in 2006 to reflect clinical failures at MICs of 2 μg/mL; current breakpoints classify *S. aureus* as susceptible at MIC ≤2, intermediate (VISA) at 4–8, and resistant (VRSA) at ≥16 μg/mL [@CLSI2012].
 
-- **VISA**: MIC 4–8 μg/mL; arises through stepwise mutation under selection pressure; characterised by thickened cell walls with abundant unbound D-Ala-D-Ala residues that "trap" vancomycin in the periphery (so-called clogging mechanism) [@Hiramatsu2001].
+- **VISA**: MIC 4–8 μg/mL; arises through stepwise mutation under selection pressure; characterised by thickened cell walls with abundant unbound D-Ala-D-Ala residues that "trap" vancomycin in the periphery — the so-called clogging mechanism (@fig-clogging) [@Hiramatsu2001]. The therapeutic implication is that more vancomycin is unlikely to overcome it; switch to alternatives (linezolid, daptomycin, ceftaroline, or a lipoglycopeptide) [@Howden2010].
 - **hVISA**: heterogeneous VISA — population MIC in the susceptible range (≤2 μg/mL) but containing subpopulations growing at 4–8 μg/mL; precursor of VISA [@Richter2011; @Howden2011]. Global prevalence \~6% among MRSA in a recent meta-analysis [@Shariati2020]; recent reports document hVISA emergence in Latin America [@Castro2020].
 - **VRSA**: acquisition of the enterococcal *vanA* operon by MRSA; rare (\~16 confirmed U.S. cases by 2023) but high-level resistant [@CDC2023].
 
 Mutations in two- and three-component regulatory systems (GraSR, WalKR/YycFG, VraTSR) controlling cell-wall homeostasis underlie both hVISA and VISA phenotypes [@Howden2008; @Howden2011; @Cafiso2012; @Wang2018].
+
+![The VISA "clogging" model: thickened cell walls with abundant free D-Ala-D-Ala residues sequester vancomycin in the periphery before it reaches the active division septum.](glycopeptides-images/clogging.png){#fig-clogging}
 
 ::: callout-warning
 ## Clinical failures with MIC creep
@@ -82,7 +100,9 @@ Vancomycin exhibits multi-compartmental kinetics with a distribution half-life o
 
 Historically, trough levels of 15–20 mg/L were targeted for serious MRSA infections, based on the surrogate assumption that troughs of this magnitude would achieve an AUC/MIC ratio of ≥400 — the pharmacodynamic threshold derived from pre-clinical and clinical *S. aureus* data [@Moise2007; @Hidayat2006]. However, the relationship between trough and AUC is variable, and trough-guided regimens often expose patients to AUC values \>600 mg·h/L — a threshold increasingly associated with acute kidney injury [@Lodise2020].
 
-The 2020 consensus guidelines from ASHP/IDSA/PIDS/SIDP now recommend **AUC-guided monitoring** by Bayesian software (or first-order pharmacokinetic equations using two timed levels), targeting **AUC₂₄ 400–600 mg·h/L** for serious MRSA infections [@Rybak2020]. Loading doses of 25–30 mg/kg are suggested for severely ill patients to attain therapeutic exposure earlier.
+The 2020 consensus guidelines from ASHP/IDSA/PIDS/SIDP now recommend **AUC-guided monitoring** by Bayesian software (or first-order pharmacokinetic equations using two timed levels), targeting **AUC₂₄ 400–600 mg·h/L** for serious MRSA infections (@fig-vancoTDM) [@Rybak2020]. Loading doses of 25–30 mg/kg are suggested for severely ill patients to attain therapeutic exposure earlier.
+
+![AUC-guided vancomycin therapeutic drug monitoring: Bayesian-derived AUC estimation is preferred over trough-only monitoring, which can produce variable AUC values for the same trough level.](glycopeptides-images/vanco_TDM.png){#fig-vancoTDM}
 
 ::: callout-tip
 ## Dosing pearls
@@ -124,7 +144,9 @@ See @tbl-dosing for a comparative dosing summary across all five agents.
 
 ## Adverse Reactions
 
-**Infusion-related reactions** — red-man (red-neck) syndrome — are the most common adverse events with vancomycin, occurring in 3.4%–14% of patients during infusion. The reaction is mediated by direct histamine release from cutaneous mast cells (not IgE-mediated) and is preventable by slowing infusion rate (\<10 mg/min) and antihistamine premedication.
+**Infusion-related reactions** — red-man (red-neck) syndrome — are the most common adverse events with vancomycin, occurring in 3.4%–14% of patients during infusion (@fig-redman). The reaction is mediated by direct histamine release from cutaneous mast cells (not IgE-mediated) and is preventable by slowing infusion rate (\<10 mg/min) and antihistamine premedication. This is a pseudoallergic reaction, not a true allergy — patients can usually continue vancomycin with slower infusion and antihistamine premedication. True IgE-mediated anaphylaxis to vancomycin is exceedingly rare [@ramakumar2021].
+
+![Vancomycin infusion (red-man) syndrome: erythematous flushing of head, face, neck, and upper trunk during rapid infusion.](glycopeptides-images/redman.png){#fig-redman width="50%"}
 
 **Nephrotoxicity** has been reported throughout vancomycin's clinical history. Risk increases with troughs ≥15 mg/L, AUC \>650 mg·h/L, concomitant nephrotoxins (especially piperacillin-tazobactam — risk amplified relative to monotherapy or to vancomycin plus cefepime/carbapenem), advanced age, obesity, hypovolaemia, and treatment duration \>14 days [@Hidayat2006; @Lodise2020]. Continuous infusion is associated with lower nephrotoxicity than intermittent dosing in meta-analyses [@Hanrahan2015].
 
@@ -153,6 +175,31 @@ Vancomycin is the comparator in most randomised trials of newer agents against g
 ### Bacteraemia and infective endocarditis
 
 Vancomycin remains the recommended therapy for MRSA bacteraemia and right-sided endocarditis when daptomycin is unsuitable, despite recognised limitations (slow bactericidal activity, treatment failure with isolates at the upper end of the susceptible MIC range). The IDSA 2011 MRSA guidelines and updated 2025 IDSA bacteraemia guidance recommend AUC-guided dosing with consideration of alternative therapy for persistent bacteraemia ≥7 days despite adequate exposure [@Liu2011; @Kalil2014].
+
+#### Persistent MRSA bacteraemia — alternatives
+
+When vancomycin fails, the following options are available:
+
+- **Daptomycin** ≥8 mg/kg (high-dose to reduce resistance emergence)
+- **Daptomycin + ceftaroline** — synergy *in vitro*; the 2019 Geriak RCT (small but suggestive of survival benefit) has made this standard rescue therapy in many academic centres [@Geriak2019]
+- **Daptomycin + β-lactam (oxacillin, nafcillin)** — the "seesaw effect" where daptomycin susceptibility *improves* with concomitant β-lactam exposure
+- **Ceftaroline monotherapy** — option for daptomycin-non-susceptible isolates
+- **Linezolid** — bacteriostatic, generally not first choice for bacteraemia but has a role in refractory cases
+- **Investigational**: oritavancin or dalbavancin for off-label bacteraemia/endocarditis continuation
+
+#### VRE bacteraemia — treatment choices
+
+| Agent | Pros | Cons |
+|------------------------|------------------------|------------------------|
+| **Linezolid** 600 mg q12h | Oral option; effective; widely available | Bone marrow suppression with prolonged use; serotonin syndrome with SSRIs |
+| **Daptomycin** ≥10 mg/kg | Bactericidal; once-daily | High doses needed; resistance emergence reported |
+| **Tigecycline** | Activity vs VRE | Low serum levels; FDA mortality signal |
+| **Oritavancin** | Single-dose; active vs VanA | Off-label; aPTT interference; cost |
+| **Quinupristin-dalfopristin** | Active vs *E. faecium* (not *faecalis*) | IV only; arthralgia/myalgia; venous irritation |
+
+: Treatment options for VRE bacteraemia {#tbl-vre}
+
+For VRE bacteraemia, daptomycin (high-dose, 10–12 mg/kg) and linezolid are both reasonable first-line choices. Oritavancin is increasingly used off-label — particularly attractive because its long half-life means a single dose can cover much of a typical 14-day course [@Munita2015; @Contreras2021].
 
 ### Pneumonia
 
@@ -205,7 +252,9 @@ Teicoplanin is generally less nephrotoxic than vancomycin in meta-analyses [@Sve
 
 ## Chemistry and Mechanism
 
-Telavancin is a semi-synthetic lipoglycopeptide derived from vancomycin by addition of a decylaminoethyl side chain and a phosphonomethylaminomethyl group. Like vancomycin it binds D-Ala-D-Ala, but its lipid tail also anchors in the bacterial cytoplasmic membrane, depolarising it and disrupting membrane integrity. This **dual mechanism** (cell-wall and membrane) produces concentration-dependent rapid bactericidal activity [@Higgins2005; @Lunde2009].
+Telavancin is a semi-synthetic lipoglycopeptide derived from vancomycin by addition of a decylaminoethyl side chain and a phosphonomethylaminomethyl group. Like vancomycin it binds D-Ala-D-Ala, but its lipid tail also anchors in the bacterial cytoplasmic membrane, depolarising it and disrupting membrane integrity (@fig-lipidtail). This **dual mechanism** (cell-wall and membrane) produces concentration-dependent rapid bactericidal activity. The lipoglycopeptides modify the parent glycopeptide mechanism with concentration-dependent activity from their membrane component, which is why they tolerate single-dose regimens [@Higgins2005; @Lunde2009].
+
+![Lipoglycopeptide side chains: the lipophilic tail anchors in the bacterial membrane, providing an additional mechanism of action beyond D-Ala-D-Ala binding.](glycopeptides-images/lipd_tail.png){#fig-lipidtail}
 
 ## Antimicrobial Activity
 
@@ -259,7 +308,7 @@ Generally well tolerated. The most common adverse events are nausea, headache, d
 
 - **ABSSSI**: Approved at 1000 mg IV on day 1 followed by 500 mg one week later, OR a single 1500 mg dose [@Boucher2014; @Dunne2016]. Non-inferior to comparators (vancomycin → linezolid) in DISCOVER 1 and 2.
 - **Osteomyelitis**: Open-label single-arm trials suggest efficacy for diabetic foot osteomyelitis and native vertebral osteomyelitis at 1500 mg followed by 1500 mg one week later [@Rappo2018].
-- **Endocarditis and *S. aureus* bacteraemia**: Subject of active open-label randomised trials [@Tobudic2018].
+- **Endocarditis and *S. aureus* bacteraemia**: The **DOTS trial** (Turner 2025) — a randomised controlled trial of dalbavancin (days 1 + 8) versus standard IV therapy for completion treatment of complicated *S. aureus* bacteraemia after blood-culture clearance — demonstrated noninferiority with comparable safety. This is the first RCT to include right-sided native valve endocarditis [@Turner2025; @Tobudic2018].
 
 ::: callout-tip
 ## Practical advantage
@@ -267,11 +316,52 @@ Generally well tolerated. The most common adverse events are nausea, headache, d
 Single-dose dalbavancin for ABSSSI can avoid hospitalisation entirely and is increasingly used to facilitate ED discharge or to bridge IV-to-outpatient transitions when adherence with oral step-down is uncertain. Cost remains a barrier in many systems.
 :::
 
+### DOTS Trial — Population Pharmacokinetics and Exposure–Response {#sec-dots-pk}
+
+A secondary PK analysis of the DOTS RCT (n = 97, 640 samples) characterised dalbavancin disposition using a 3-compartment population PK model [@lodise2026]:
+
+| Parameter      | Estimate  | 95% CI      | IIV (CV%) |
+|----------------|-----------|-------------|-----------|
+| CL             | 0.066 L/h | 0.062–0.069 | 22.6%     |
+| V~1~ (central) | 5.67 L    | 5.37–5.99   | 19.7%     |
+
+: DOTS population pharmacokinetic parameter estimates {#tbl-dots-pk}
+
+**Protein binding** was \>99% in 92.3% of paired samples — substantially higher than the \~93% historically estimated from radiolabeled equilibrium dialysis. Albumin was the primary determinant of variability in fraction unbound, not renal function. Key covariate effects included creatinine clearance on CL (exponent 0.21), body weight on all distribution volumes (exponents 0.56–0.82), and albumin on fraction unbound (exponent −0.78) [@lodise2026].
+
+#### Exposure–response: day 22 concentration
+
+Among 93 evaluable patients, 72 (77.4%) achieved clinical success at day 70. A **total day 22 concentration \>32 µg/mL** was identified as the optimal cut point:
+
+|                         | n   | Clinical success |                 |
+|-------------------------|-----|------------------|-----------------|
+| C~22~ \>32 µg/mL        | 30  | 29 (96.7%)       |                 |
+| C~22~ ≤32 µg/mL         | 63  | 43 (68.3%)       |                 |
+| **Adjusted difference** |     | **25.3 pp**      | 95% CI 3.5–47.0 |
+
+: Exposure–response relationship by day 22 dalbavancin concentration {#tbl-dots-er}
+
+No increase in serious adverse events was observed in the higher-exposure group. However, mean day 22 concentration with two 1500 mg doses was 29.0 µg/mL — i.e. the majority of patients fall *below* the 32 µg/mL threshold. 73% of unbound samples were below quantification by day 42, and all infectious complications occurred after day 40, temporally coinciding with declining unbound exposure [@lodise2026].
+
+::: callout-important
+## Hypothesis-generating
+
+The 32 µg/mL threshold requires **external validation** before clinical application. Exploratory data suggest some patients may benefit from a third dose between days 22–40, guided by low day 22 concentration or applied empirically in patients at risk for lower exposure (high weight, high CrCl, low albumin). This represents a different TDM paradigm from vancomycin — deciding whether to give an additional fixed dose weeks into therapy rather than adjusting a continuous infusion [@lodise2026].
+:::
+
+### Dalbavancin in People Who Inject Drugs (PWID)
+
+Dalbavancin is increasingly used for *S. aureus* bacteraemia and right-sided endocarditis in PWID, where single 1500 mg dosing covers \~2 weeks of therapy without requiring IV access. These patients are at high risk for line infections, often leave against medical advice, and cannot reliably complete a 4–6 week IV course [@Bork2019; @Wunsch2019].
+
+The DOTS trial included right-sided native valve endocarditis and showed dalbavancin to be noninferior to standard IV therapy — the first RCT data covering this population [@Turner2025]. Left-sided and prosthetic valve endocarditis remain supported only by observational data; dedicated trials are needed.
+
 # Oritavancin
 
 ## Chemistry and Mechanism
 
-Oritavancin is a derivative of chloroeremomycin — itself a vancomycin analogue produced by *Amycolatopsis orientalis*. Like telavancin and dalbavancin, oritavancin has a lipophilic side chain that anchors it in the bacterial membrane, supporting a **triple mechanism**: inhibition of transglycosylation, inhibition of transpeptidation (through binding of a secondary peptidoglycan site beyond D-Ala-D-Ala), and direct membrane depolarisation. This explains its activity against VanA enterococci, which are resistant to all other glycopeptides.
+Oritavancin is a derivative of chloroeremomycin — itself a vancomycin analogue produced by *Amycolatopsis orientalis*. Like telavancin and dalbavancin, oritavancin has a lipophilic side chain that anchors it in the bacterial membrane, supporting a **triple mechanism** (@fig-oritavancin): inhibition of transglycosylation, inhibition of transpeptidation (through binding of a secondary peptidoglycan site beyond D-Ala-D-Ala), and direct membrane depolarisation. This secondary binding site is what gives oritavancin its activity against VanA enterococci — the cell-wall precursors of VanA enterococci end in D-Ala-D-lactate, which vancomycin cannot bind effectively, but oritavancin can still inhibit transpeptidation through its alternative binding site [@Allen2003].
+
+![Oritavancin's triple mechanism of action: D-Ala-D-Ala binding, secondary peptidoglycan binding site (conferring VanA activity), and membrane depolarisation.](glycopeptides-images/oritavancin.png){#fig-oritavancin}
 
 ## Antimicrobial Activity
 
@@ -327,6 +417,87 @@ The lipoglycopeptides — particularly dalbavancin and oritavancin with their mu
 2.  **Operational use**: single-dose ABSSSI therapy can avoid admission, reduce length of stay, and bridge transitions of care — but requires clear protocols for patient selection (excluding deep infection, sepsis, and infections needing source control).
 3.  **Cost**: acquisition cost is high; cost-effectiveness depends on local hospitalisation costs, the availability of OPAT (outpatient parenteral antimicrobial therapy), and the alternative oral options.
 4.  **Off-label use**: in osteomyelitis, prosthetic joint infection, and bacteraemia, single-dose regimens are increasingly used, but the evidence base remains predominantly observational. Prospective controlled trials are in progress.
+
+# Stewardship Decision Framework
+
+## When to use lipoglycopeptides
+
+**Strong rationale:**
+
+- ABSSSI requiring inpatient gram-positive cover but suitable for early discharge / ED treatment
+- Patients with poor adherence to oral step-down or unable to take oral antibiotics
+- Difficult IV access where prolonged IV is not feasible
+- VRE bacteraemia / VanA enterococcal infection — **oritavancin specifically**
+- Outpatient continuation of osteomyelitis or endocarditis therapy (off-label)
+
+**Weaker rationale (think twice):**
+
+- Routine ABSSSI in patients who can take oral cephalexin/clindamycin/doxycycline
+- Hospital-acquired infections where source control is not established
+- Patients with concurrent need for IV unfractionated heparin (avoid oritavancin)
+
+## Decision framework — empirical gram-positive cover
+
+| Scenario | First-line | Lipoglycopeptide role |
+|------------------------|------------------------|------------------------|
+| ABSSSI, inpatient, oral step-down possible | Vancomycin → oral step-down | Single-dose dalbavancin if ED discharge desired |
+| ABSSSI, ED, avoid admission | — | Single-dose dalbavancin or oritavancin |
+| MRSA bacteraemia, complicated | Vancomycin (AUC) or daptomycin | Dalbavancin for continuation (off-label) |
+| MRSA endocarditis | Vancomycin or daptomycin (+ ceftaroline) | Investigational role |
+| HAP/VAP, MRSA | Vancomycin or linezolid | Telavancin only if alternatives unsuitable |
+| Diabetic foot osteomyelitis, MRSA | Standard regimen | Dalbavancin two-dose attractive |
+| VanA VRE bacteraemia | Linezolid, daptomycin (high-dose), tigecycline | **Oritavancin** if other options exhausted |
+| *C. difficile* colitis | Oral vancomycin or fidaxomicin | No role |
+
+: Decision framework for glycopeptide and lipoglycopeptide selection {#tbl-decision}
+
+## Pharmacoeconomics
+
+The cost-effectiveness of lipoglycopeptides depends on local hospitalisation costs:
+
+- **Acquisition cost**: dalbavancin €1,500–2,500 per 1500 mg dose; oritavancin €2,500–3,500 per 1200 mg dose (varies by country)
+- **Per-day hospital ward cost**: €500–1,500 in most European systems
+- **Breakeven**: approximately 2–3 hospital days avoided per single-dose lipoglycopeptide
+- **Cost-effective** when avoiding admission entirely for ABSSSI, discharging early from bacteraemia, or replacing a prolonged OPAT IV course
+- **Less cost-effective** when displacing inexpensive oral options
+
+# Clinical Cases for Discussion
+
+## Case 1 — MRSA bacteraemia with rising creatinine
+
+A 55-year-old man with type 2 diabetes is admitted with right-sided infective endocarditis and MRSA bacteraemia. Day 5 of vancomycin (trough 18 mg/L, AUC 580). Creatinine has risen from 0.9 → 1.6 mg/dL. Blood cultures remain positive at 96 hours.
+
+**Key considerations:**
+
+- The persistent bacteraemia at 96 hours is the critical signal — IDSA recommends considering alternative therapy for persistent bacteraemia ≥7 days despite adequate vancomycin exposure
+- The rising creatinine adds urgency to switching agents
+- Imaging (TEE, CT for metastatic foci) to look for uncontrolled source
+- Switch to daptomycin 10 mg/kg ± ceftaroline for synergy/seesaw effect
+- Discontinue concomitant nephrotoxins
+
+## Case 2 — ABSSSI in IV drug user
+
+A 32-year-old woman, active opioid injection use, presents with extensive cellulitis at an injection site. Stable, no systemic features. MRSA likely. Refusing admission, no IV access available, unreliable for outpatient appointments.
+
+**Key considerations:**
+
+- This is the textbook indication for single-dose lipoglycopeptide therapy
+- Either dalbavancin (1500 mg, 30 min infusion) or oritavancin (1200 mg) would be reasonable
+- Dalbavancin's shorter infusion time is operationally easier in the ED
+- Cost-effectiveness is generally favourable when admission would otherwise be needed
+- Structured post-treatment follow-up by phone or community health workers is recommended
+
+## Case 3 — VanA VRE bacteraemia
+
+A 68-year-old patient, post-cardiac surgery in ICU day 21, develops new fever with positive blood cultures: *E. faecium* VanA phenotype. The patient has acute kidney injury (CrCl 30 mL/min) and is on dual antiplatelet therapy.
+
+**Key considerations:**
+
+- **Linezolid** is a strong first-line choice: 100% oral bioavailability, no renal adjustment, good VRE evidence
+- **Daptomycin** (high-dose) works but renal impairment limits dose escalation
+- **Oritavancin** is increasingly attractive (single dose covers a 14-day course) but the aPTT interference complicates anticoagulation monitoring
+- **Tigecycline** should generally be avoided for bacteraemia given the FDA mortality signal
+- Monitor for bone marrow suppression if linezolid is used beyond 14 days
 
 # Conclusions
 
