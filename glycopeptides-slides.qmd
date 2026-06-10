@@ -338,8 +338,6 @@ Bayesian software like InsightRx, DoseMe, or PrecisePK is increasingly available
   - **Loading dose 25–30 mg/kg** (actual body weight) for severely ill patients
 - For non-serious infections: trough-based monitoring may still be acceptable
 
-
-
 ::: aside
 The 2020 revision was a major shift. Implementation has been uneven — surveys suggest that maybe a third to a half of US hospitals have moved to AUC-based dosing as of 2024. Italian uptake is slower but the major academic centres are moving in that direction [@Rybak2020].
 :::
@@ -353,8 +351,6 @@ The 2020 revision was a major shift. Implementation has been uneven — surveys 
 - **Pregnancy**: category B/C; minimal transplacental passage in ex vivo models; therapeutic fetal concentrations reached in overt amnionitis; no demonstrated teratogenicity in second/third trimester
 - **Obesity**: dose by **actual body weight**, but cap loading at 3 g; obese patients often achieve higher AUC than non-obese at same mg/kg
 - **Elderly**: heightened nephrotoxicity risk; use lower trough/AUC targets where clinically acceptable
-
-
 
 ::: aisde
 The obesity dosing question comes up a lot. The current consensus is to dose by actual body weight with a cap, then monitor and adjust based on AUC. Older guidelines used adjusted body weight but that under-dosed many patients. Pregnancy data are reassuring for second/third trimester use but data on first-trimester exposure are sparse [@Rybak2020].
@@ -476,8 +472,6 @@ The single most impactful change in your unit is probably switching empirical re
   - Endovascular source not controlled
 - Alternatives: daptomycin (high dose ≥8 mg/kg), ceftaroline, daptomycin + ceftaroline, dalbavancin (off-label)
 
-
-
 ::: notes
 The IDSA 2025 updated bacteraemia guidance is even more permissive of alternatives — daptomycin first-line for many is increasingly common practice. Daptomycin + ceftaroline combination is increasingly used for persistent bacteraemia despite limited RCT evidence, based on synergy data and observational cohorts [@Liu2011; @Kalil2016].
 :::
@@ -490,8 +484,6 @@ The IDSA 2025 updated bacteraemia guidance is even more permissive of alternativ
 - Linezolid: higher epithelial lining fluid concentration; reduced renal toxicity
 - Most randomised trials: clinical equivalence
 - For necrotising pneumonia or PVL-positive strains, linezolid often preferred (toxin suppression)
-
-
 
 ::: aside
 Necrotising MRSA pneumonia is the scenario where the toxin-suppression argument for linezolid (or clindamycin combination) becomes important. The evidence is mostly observational but the mechanism is biologically plausible — protein-synthesis inhibitors reduce expression of PVL and other exotoxins [@Kalil2016].
@@ -524,8 +516,6 @@ The dapto + ceftaroline combination has become standard rescue therapy in many a
 | **Oritavancin** | Single-dose; active vs VanA | Off-label; aPTT interference; cost |
 | **Quinupristin-dalfopristin** | Active vs *E. faecium* (not *faecalis*) | IV only; arthralgia/myalgia; venous irritation |
 
-
-
 ::: notes
 For VRE bacteraemia, daptomycin high-dose and linezolid are both reasonable first-line choices in 2025. The high-dose daptomycin trend (10-12 mg/kg) reflects concerns about emergence of resistance at lower doses. Oritavancin is increasingly used off-label for VRE — particularly attractive because the long half-life means a single dose can cover much of the typical 14-day course [@Munita2015; @Contreras2021].
 :::
@@ -553,8 +543,6 @@ Standard empirical regimen most ID consultants give in their sleep — but worth
 - Recurrent CDI: tapering/pulsed oral vancomycin OR fidaxomicin OR bezlotoxumab adjunct
 - Fulminant disease: vancomycin 500 mg q6h PO + metronidazole 500 mg IV q8h ± rectal vancomycin
 
-
-
 ::: notes
 Oral vancomycin is not absorbed systemically — fecal concentrations are 1000+ μg/g — so therapeutic drug monitoring isn't relevant. Watch for the very rare scenario of detectable serum levels in patients with severe colonic inflammation and renal failure receiving high-dose oral [@Johnson2021].
 :::
@@ -570,7 +558,7 @@ Oral vancomycin is not absorbed systemically — fecal concentrations are 1000+ 
 - Spectrum largely overlaps vancomycin
 - Higher MIC in some staphylococcal species (notably *S. haemolyticus*)
 - **VanA**: resistant; **VanB**: susceptible (no induction)
-- **Not available in the United States** **No role in Italy-Van A 95-96%.
+- **Not available in the United States** \*\*No role in Italy-Van A 95-96%.
 
 ::: aside
 The half-life advantage and possibly lower nephrotoxicity make teicoplanin attractive where it's available. The US not having it is mostly a regulatory and commercial story — Marion-Merrell Dow filed but withdrew in the 1990s, and no one has refiled.
@@ -643,7 +631,7 @@ The 2009 Svetitsky meta-analysis is the standard reference on nephrotoxicity com
 
 |   | Telavancin | Dalbavancin | Oritavancin |
 |------------------|------------------|------------------|------------------|
-| **Parent compound** | Vancomycin | A40926 (teicoplanin-like) | Chloroeremomycin (vancomycin analog) |
+| **Parent compound** | Vancomycin | A40926 <br> (teicoplanin-like) | Chloroeremomycin (vancomycin analog) |
 | **t½** | \~8 h | \~346 h (\~14 d) | \~245 h (\~10 d) |
 | **Dosing** | 10 mg/kg q24h | 1000 mg + 500 mg/wk OR 1500 mg × 1 | 1200 mg × 1 |
 | **Renal adj.** | Yes | No | No |
@@ -995,7 +983,7 @@ The prolonged sub-MIC exposure issue is the elephant in the room with single-dos
 | C. difficile colitis | Oral vancomycin or fidaxomicin | No role |
 
 ::: aside
-This is the decision framework I want you to take away. Lipoglycopeptides are powerful additions but they don't replace vancomycin for most serious infections. They're best thought of as solutions to specific operational problems — early discharge, poor adherence, prolonged outpatient courses, occasional resistance niches.
+Lipoglycopeptides are powerful additions but they don't replace vancomycin for most serious infections. They're best thought of as solutions to specific operational problems — early discharge, poor adherence, prolonged outpatient courses, occasional resistance niches.
 :::
 
 # Cases for discussion {background-color="#b20e10"}
