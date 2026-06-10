@@ -64,6 +64,7 @@ By the end of this lecture, you should be able to:
 | **Year approved** | 1958 | 1988 (EU) | 2009 | 2014 | 2014 |
 | **Half-life** | 6–12 h | 70–100 h | \~8 h | \~346 h | \~245 h |
 | **US availability** | Yes | No | Yes | Yes | Yes |
+| **Italy availability** | Yes | Yes | No | Yes | Yes |
 
 ::: aside
 Teicoplanin has been in clinical use in Europe since the late 1980s but never received FDA approval, which is an interesting regulatory and commercial history rather than a scientific one. The half-life differences between vancomycin and the lipoglycopeptides drive most of the practical differences in how we use them.
@@ -280,6 +281,7 @@ Conceptually elegant — the bug doesn't change its target, it builds extra targ
 - Acquisition of the **enterococcal *vanA* operon** by MRSA, usually in patients with concomitant VRE infection
 - Conjugative transfer in vivo demonstrated experimentally and in clinical isolates
 - First US case 2002; total **\~16 confirmed US cases** as of 2023
+- No confirmed cases in Italy?
 - Most isolates: high-level resistance (MIC ≥32 μg/mL) but **susceptible to linezolid, daptomycin, ceftaroline, oritavancin**
 
 ::: aside
@@ -336,12 +338,10 @@ Bayesian software like InsightRx, DoseMe, or PrecisePK is increasingly available
   - **Loading dose 25–30 mg/kg** (actual body weight) for severely ill patients
 - For non-serious infections: trough-based monitoring may still be acceptable
 
-::: aside
-[@Rybak2020]
-:::
 
-::: notes
-The 2020 revision was a major shift. Implementation has been uneven — surveys suggest that maybe a third to a half of US hospitals have moved to AUC-based dosing as of 2024. Italian uptake is slower but the major academic centres are moving in that direction.
+
+::: aside
+The 2020 revision was a major shift. Implementation has been uneven — surveys suggest that maybe a third to a half of US hospitals have moved to AUC-based dosing as of 2024. Italian uptake is slower but the major academic centres are moving in that direction [@Rybak2020].
 :::
 
 ## Vancomycin in special populations
@@ -354,12 +354,10 @@ The 2020 revision was a major shift. Implementation has been uneven — surveys 
 - **Obesity**: dose by **actual body weight**, but cap loading at 3 g; obese patients often achieve higher AUC than non-obese at same mg/kg
 - **Elderly**: heightened nephrotoxicity risk; use lower trough/AUC targets where clinically acceptable
 
-::: aside
-[@Rybak2020]
-:::
 
-::: notes
-The obesity dosing question comes up a lot. The current consensus is to dose by actual body weight with a cap, then monitor and adjust based on AUC. Older guidelines used adjusted body weight but that under-dosed many patients. Pregnancy data are reassuring for second/third trimester use but data on first-trimester exposure are sparse.
+
+::: aisde
+The obesity dosing question comes up a lot. The current consensus is to dose by actual body weight with a cap, then monitor and adjust based on AUC. Older guidelines used adjusted body weight but that under-dosed many patients. Pregnancy data are reassuring for second/third trimester use but data on first-trimester exposure are sparse [@Rybak2020].
 :::
 
 ## Vancomycin dosing summary
@@ -376,11 +374,7 @@ The obesity dosing question comes up a lot. The current consensus is to dose by 
 | Children | Weight-based; AUC-targeted | Bayesian tools especially useful |
 
 ::: aside
-[@Rybak2020]
-:::
-
-::: notes
-Continuous infusion deserves a mention — meta-analyses consistently show less nephrotoxicity with continuous infusion vs intermittent, with no efficacy penalty. Practical considerations (line dedication, drug-incompatibility) keep it less common than it should be in many ICUs.
+Continuous infusion deserves a mention — meta-analyses consistently show less nephrotoxicity with continuous infusion vs intermittent, with no efficacy penalty. Practical considerations (line dedication, drug-incompatibility) keep it less common than it should be in many ICUs [@Rybak2020].
 :::
 
 ## Local administration
@@ -393,11 +387,7 @@ Continuous infusion deserves a mention — meta-analyses consistently show less 
 - **Oral** (*C. difficile*): 125 mg q6h × 10 days (fulminant: 500 mg q6h + IV metronidazole)
 
 ::: aside
-[@Li2016]
-:::
-
-::: notes
-Intraventricular vancomycin is something every ID consultant should be comfortable advising on. Doses are tiny relative to systemic. Watch for the rare reports of hemorrhagic occlusive retinal vasculitis with intracameral vancomycin prophylaxis after cataract surgery — there's been a push to abandon that practice for that reason.
+Intraventricular vancomycin is something every ID consultant should be comfortable advising on. Doses are tiny relative to systemic. Watch for the rare reports of hemorrhagic occlusive retinal vasculitis with intracameral vancomycin prophylaxis after cataract surgery — there's been a push to abandon that practice for that reason [@Li2016].
 :::
 
 # Vancomycin adverse effects {background-color="#b20e10"}
@@ -454,11 +444,7 @@ The vancomycin + piperacillin-tazobactam AKI signal is one of the more discussed
 - **C. difficile colitis** from IV vancomycin (paradoxically reported)
 
 ::: aside
-[@Marissen2020]
-:::
-
-::: aside
-Linear IgA bullous dermatosis is the boards-favourite vancomycin association — sub-epidermal vesicles with characteristic IgA deposition on direct immunofluorescence. Resolves on drug withdrawal. Worth recognising clinically.
+Intraventricular vancomycin is something every ID consultant should be comfortable advising on. Doses are tiny relative to systemic. Watch for the rare reports of hemorrhagic occlusive retinal vasculitis with intracameral vancomycin prophylaxis after cataract surgery — there's been a push to abandon that practice for that reason [@Marissen2020].
 :::
 
 ## Preventing vancomycin AKI
@@ -473,11 +459,7 @@ Linear IgA bullous dermatosis is the boards-favourite vancomycin association —
 - For high-risk patients, consider alternative agent (daptomycin, linezolid, ceftaroline) if MRSA confirmed
 
 ::: aside
-[@Rybak2020; @Luther2018]
-:::
-
-::: aside
-This is bedside-practical. The single most impactful change in your unit is probably switching empirical regimens from vanc+pip-tazo to vanc+cefepime or vanc+carbapenem (or moving away from empirical vancomycin entirely when there's no compelling MRSA reason). De-escalation is undervalued — many patients stay on vancomycin for days past the point where it's needed.
+The single most impactful change in your unit is probably switching empirical regimens from vanc+pip-tazo to vanc+cefepime or vanc+carbapenem (or moving away from empirical vancomycin entirely when there's no compelling MRSA reason). De-escalation is undervalued — many patients stay on vancomycin for days past the point where it's needed [@Rybak2020; @Luther2018].
 :::
 
 # Vancomycin clinical uses {background-color="#b20e10"}
@@ -494,12 +476,10 @@ This is bedside-practical. The single most impactful change in your unit is prob
   - Endovascular source not controlled
 - Alternatives: daptomycin (high dose ≥8 mg/kg), ceftaroline, daptomycin + ceftaroline, dalbavancin (off-label)
 
-::: aside
-[@Liu2011; @Kalil2016]
-:::
+
 
 ::: notes
-The IDSA 2025 updated bacteraemia guidance is even more permissive of alternatives — daptomycin first-line for many is increasingly common practice. Daptomycin + ceftaroline combination is increasingly used for persistent bacteraemia despite limited RCT evidence, based on synergy data and observational cohorts.
+The IDSA 2025 updated bacteraemia guidance is even more permissive of alternatives — daptomycin first-line for many is increasingly common practice. Daptomycin + ceftaroline combination is increasingly used for persistent bacteraemia despite limited RCT evidence, based on synergy data and observational cohorts [@Liu2011; @Kalil2016].
 :::
 
 ## MRSA pneumonia
@@ -511,12 +491,10 @@ The IDSA 2025 updated bacteraemia guidance is even more permissive of alternativ
 - Most randomised trials: clinical equivalence
 - For necrotising pneumonia or PVL-positive strains, linezolid often preferred (toxin suppression)
 
-::: aside
-[@Kalil2016]
-:::
+
 
 ::: aside
-Necrotising MRSA pneumonia is the scenario where the toxin-suppression argument for linezolid (or clindamycin combination) becomes important. The evidence is mostly observational but the mechanism is biologically plausible — protein-synthesis inhibitors reduce expression of PVL and other exotoxins.
+Necrotising MRSA pneumonia is the scenario where the toxin-suppression argument for linezolid (or clindamycin combination) becomes important. The evidence is mostly observational but the mechanism is biologically plausible — protein-synthesis inhibitors reduce expression of PVL and other exotoxins [@Kalil2016].
 :::
 
 ## Persistent MRSA bacteraemia — alternatives
@@ -546,12 +524,10 @@ The dapto + ceftaroline combination has become standard rescue therapy in many a
 | **Oritavancin** | Single-dose; active vs VanA | Off-label; aPTT interference; cost |
 | **Quinupristin-dalfopristin** | Active vs *E. faecium* (not *faecalis*) | IV only; arthralgia/myalgia; venous irritation |
 
-::: aside
-[@Munita2015; @Contreras2021]
-:::
+
 
 ::: notes
-For VRE bacteraemia, daptomycin high-dose and linezolid are both reasonable first-line choices in 2025. The high-dose daptomycin trend (10-12 mg/kg) reflects concerns about emergence of resistance at lower doses. Oritavancin is increasingly used off-label for VRE — particularly attractive because the long half-life means a single dose can cover much of the typical 14-day course.
+For VRE bacteraemia, daptomycin high-dose and linezolid are both reasonable first-line choices in 2025. The high-dose daptomycin trend (10-12 mg/kg) reflects concerns about emergence of resistance at lower doses. Oritavancin is increasingly used off-label for VRE — particularly attractive because the long half-life means a single dose can cover much of the typical 14-day course [@Munita2015; @Contreras2021].
 :::
 
 ## Bacterial meningitis
@@ -563,7 +539,7 @@ For VRE bacteraemia, daptomycin high-dose and linezolid are both reasonable firs
 - Add ampicillin for *Listeria* if age \>50 or immunocompromised
 - Add dexamethasone for suspected pneumococcal meningitis
 
-::: notes
+::: aside
 Standard empirical regimen most ID consultants give in their sleep — but worth reinforcing for the postgrad audience that vancomycin's CSF penetration is modest, and that this is one indication where the AUC/MIC = 400 target may not be achievable even with high doses. For documented penicillin-resistant pneumococcal meningitis, intraventricular vancomycin is sometimes added for severe cases.
 :::
 
@@ -577,15 +553,13 @@ Standard empirical regimen most ID consultants give in their sleep — but worth
 - Recurrent CDI: tapering/pulsed oral vancomycin OR fidaxomicin OR bezlotoxumab adjunct
 - Fulminant disease: vancomycin 500 mg q6h PO + metronidazole 500 mg IV q8h ± rectal vancomycin
 
-::: aside
-[@Johnson2021]
-:::
+
 
 ::: notes
-Oral vancomycin is not absorbed systemically — fecal concentrations are 1000+ μg/g — so therapeutic drug monitoring isn't relevant. Watch for the very rare scenario of detectable serum levels in patients with severe colonic inflammation and renal failure receiving high-dose oral.
+Oral vancomycin is not absorbed systemically — fecal concentrations are 1000+ μg/g — so therapeutic drug monitoring isn't relevant. Watch for the very rare scenario of detectable serum levels in patients with severe colonic inflammation and renal failure receiving high-dose oral [@Johnson2021].
 :::
 
-# Teicoplanin {background-color="#b20e10"}
+# Teicoplanin- No longer available in EU {background-color="#b20e10"}
 
 ## Teicoplanin — distinguishing features
 
@@ -596,7 +570,7 @@ Oral vancomycin is not absorbed systemically — fecal concentrations are 1000+ 
 - Spectrum largely overlaps vancomycin
 - Higher MIC in some staphylococcal species (notably *S. haemolyticus*)
 - **VanA**: resistant; **VanB**: susceptible (no induction)
-- **Not available in the United States**
+- **Not available in the United States** **No role in Italy-Van A 95-96%.
 
 ::: aside
 The half-life advantage and possibly lower nephrotoxicity make teicoplanin attractive where it's available. The US not having it is mostly a regulatory and commercial story — Marion-Merrell Dow filed but withdrew in the 1990s, and no one has refiled.
